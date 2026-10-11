@@ -1,0 +1,1 @@
+"""SkySafe local benchtop dashboard."""

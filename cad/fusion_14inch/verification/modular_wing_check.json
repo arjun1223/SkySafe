@@ -1,0 +1,422 @@
+{
+  "passed": true,
+  "scope": "Export geometry only; printed fit and bending remain untested",
+  "source_sha256": "8accce186577d8e3df5f728b0725c83ef0be89ef376bfb3d286701815b7688a3",
+  "assembled_span_mm": 356.4,
+  "assembled_span_inches": 14.031496062992126,
+  "diamond_sections": [
+    {
+      "part": "wing_root",
+      "local_x_mm": 10,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_root",
+      "local_x_mm": 10,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_root",
+      "local_x_mm": 29,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_root",
+      "local_x_mm": 29,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_root",
+      "local_x_mm": 49,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_root",
+      "local_x_mm": 49,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_root",
+      "local_x_mm": 69,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_root",
+      "local_x_mm": 69,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_root",
+      "local_x_mm": 89,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_root",
+      "local_x_mm": 89,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_root",
+      "local_x_mm": 109,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_root",
+      "local_x_mm": 109,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 16,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 16,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 38,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 38,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 60,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 60,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 82,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 82,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 96,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 96,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_tip",
+      "local_x_mm": 16,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_tip",
+      "local_x_mm": 16,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_tip",
+      "local_x_mm": 38,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_tip",
+      "local_x_mm": 38,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_tip",
+      "local_x_mm": 60,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_tip",
+      "local_x_mm": 60,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_tip",
+      "local_x_mm": 82,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_tip",
+      "local_x_mm": 82,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_tip",
+      "local_x_mm": 106,
+      "center_yz_mm": [
+        -18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    },
+    {
+      "part": "wing_tip",
+      "local_x_mm": 106,
+      "center_yz_mm": [
+        18,
+        4.5
+      ],
+      "flat_to_flat_mm": 4.5,
+      "diagonal_mm": 6.363961030678928,
+      "roof_angle_deg": 45
+    }
+  ],
+  "joint_bolt_holes": [
+    {
+      "part": "wing_root",
+      "local_x_mm": 122,
+      "diameter_mm": 3.3927562248549483
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 6,
+      "diameter_mm": 3.3928183755203802
+    },
+    {
+      "part": "wing_middle",
+      "local_x_mm": 108,
+      "diameter_mm": 3.3927562248624543
+    },
+    {
+      "part": "wing_tip",
+      "local_x_mm": 6,
+      "diameter_mm": 3.3928183755203802
+    },
+    {
+      "part": "joint_plate",
+      "local_x_mm": 6,
+      "diameter_mm": 3.398405644586506
+    },
+    {
+      "part": "joint_plate",
+      "local_x_mm": 18.2,
+      "diameter_mm": 3.3984057623812385
+    }
+  ],
+  "plate_positions_mm": [
+    [
+      116.0,
+      0.0,
+      14.0
+    ],
+    [
+      116.0,
+      0.0,
+      18.4
+    ],
+    [
+      230.2,
+      0.0,
+      14.0
+    ],
+    [
+      230.2,
+      0.0,
+      18.4
+    ]
+  ],
+  "gauge_strip_thickness_mm": 1.8,
+  "unchanged_parts": [
+    "root_cap",
+    "tip_adapter",
+    "cell_spacer",
+    "load_hanger"
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "passed": true,
+  "scope": "Geometry only: no physical fit, anchoring or strength rating",
+  "checks": {
+    "watertight": true,
+    "consistent_winding": true,
+    "one_connected_solid": true,
+    "fits_140_mm_printer": true,
+    "dimensions_130_42_110": true,
+    "flat_on_bed": true,
+    "volume_matches_profile_and_four_bores": true
+  },
+  "dimensions_print_mm": [
+    130.0,
+    42.0,
+    110.0
+  ],
+  "volume_mm3": 96467.56017216972,
+  "diamond_bore_sections": [
+    {
+      "print_plane_y": 35.1,
+      "center_print_xz": [
+        3,
+        98
+      ],
+      "center_assembly_xy": [
+        3,
+        -43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.5101358264455484e-06
+    },
+    {
+      "print_plane_y": 35.1,
+      "center_print_xz": [
+        3,
+        12
+      ],
+      "center_assembly_xy": [
+        3,
+        43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.0456144273216523e-07
+    },
+    {
+      "print_plane_y": 35.1,
+      "center_print_xz": [
+        20,
+        98
+      ],
+      "center_assembly_xy": [
+        20,
+        -43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.5101358264455484e-06
+    },
+    {
+      "print_plane_y": 35.1,
+      "center_print_xz": [
+        20,
+        12
+      ],
+      "center_assembly_xy": [
+        20,
+        43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.0456144273216523e-07
+    },
+    {
+      "print_plane_y": 38,
+      "center_print_xz": [
+        3,
+        98
+      ],
+      "center_assembly_xy": [
+        3,
+        -43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.5101358264455484e-06
+    },
+    {
+      "print_plane_y": 38,
+      "center_print_xz": [
+        3,
+        12
+      ],
+      "center_assembly_xy": [
+        3,
+        43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.0456144273216523e-07
+    },
+    {
+      "print_plane_y": 38,
+      "center_print_xz": [
+        20,
+        98
+      ],
+      "center_assembly_xy": [
+        20,
+        -43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.5101358264455484e-06
+    },
+    {
+      "print_plane_y": 38,
+      "center_print_xz": [
+        20,
+        12
+      ],
+      "center_assembly_xy": [
+        20,
+        43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.0456144273216523e-07
+    },
+    {
+      "print_plane_y": 40.9,
+      "center_print_xz": [
+        3,
+        98
+      ],
+      "center_assembly_xy": [
+        3,
+        -43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.5101358264455484e-06
+    },
+    {
+      "print_plane_y": 40.9,
+      "center_print_xz": [
+        3,
+        12
+      ],
+      "center_assembly_xy": [
+        3,
+        43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.0456144273216523e-07
+    },
+    {
+      "print_plane_y": 40.9,
+      "center_print_xz": [
+        20,
+        98
+      ],
+      "center_assembly_xy": [
+        20,
+        -43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.5101358264455484e-06
+    },
+    {
+      "print_plane_y": 40.9,
+      "center_print_xz": [
+        20,
+        12
+      ],
+      "center_assembly_xy": [
+        20,
+        43
+      ],
+      "inscribed_diameter_mm": 3.4,
+      "max_corner_error_mm": 3.0456144273216523e-07
+    }
+  ],
+  "reused_cap_sections": [
+    {
+      "center": [
+        3.0000000007624306,
+        -43.00000000000027
+      ],
+      "z": 4,
+      "diameter_mm": 4.4,
+      "measured_diameter_mm": 4.399999442413634,
+      "passed": true
+    },
+    {
+      "center": [
+        3.0000000007620686,
+        43.00000000000026
+      ],
+      "z": 4,
+      "diameter_mm": 4.4,
+      "measured_diameter_mm": 4.39999944241198,
+      "passed": true
+    },
+    {
+      "center": [
+        19.999999999986326,
+        -43.00000000000635
+      ],
+      "z": 4,
+      "diameter_mm": 4.4,
+      "measured_diameter_mm": 4.399998919856017,
+      "passed": true
+    },
+    {
+      "center": [
+        19.999999999986375,
+        43.000000000006345
+      ],
+      "z": 4,
+      "diameter_mm": 4.4,
+      "measured_diameter_mm": 4.399998919854984,
+      "passed": true
+    }
+  ],
+  "sha256": "96229d3c276845e86c50f7bcbeeb634576bc39d4e52fa73dbdf093f92c9de9d6"
+}

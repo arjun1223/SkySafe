@@ -1,0 +1,11 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "SkySafe",
+  "description": {
+    "": "Build a 356.4 mm three-section SkySafe wing with four sandwich joint plates in native Fusion."
+  },
+  "supportedOS": "mac|windows",
+  "editEnabled": true,
+  "version": "2.0.0"
+}

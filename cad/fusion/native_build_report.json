@@ -1,0 +1,1964 @@
+{
+  "status": "PASS - native solids and feature history; physical validation pending",
+  "parts": [
+    {
+      "part": "wing",
+      "native_solids": 1,
+      "mesh_bodies": 0,
+      "dimensions_mm": [
+        128.0,
+        72.0,
+        8.0
+      ],
+      "volume_mm3": 27836.892368641395,
+      "sketches": 43,
+      "extrude_features": 43
+    },
+    {
+      "part": "root_base",
+      "native_solids": 1,
+      "mesh_bodies": 0,
+      "dimensions_mm": [
+        110.0,
+        100.0,
+        18.0
+      ],
+      "volume_mm3": 107540.18986501436,
+      "sketches": 14,
+      "extrude_features": 14
+    },
+    {
+      "part": "root_cap",
+      "native_solids": 1,
+      "mesh_bodies": 0,
+      "dimensions_mm": [
+        30.0,
+        98.0,
+        8.0
+      ],
+      "volume_mm3": 23033.430129811997,
+      "sketches": 5,
+      "extrude_features": 5
+    },
+    {
+      "part": "tip_adapter",
+      "native_solids": 1,
+      "mesh_bodies": 0,
+      "dimensions_mm": [
+        90.0,
+        38.0,
+        6.000000000000001
+      ],
+      "volume_mm3": 18071.54870032051,
+      "sketches": 7,
+      "extrude_features": 7
+    },
+    {
+      "part": "cell_spacer",
+      "native_solids": 1,
+      "mesh_bodies": 0,
+      "dimensions_mm": [
+        26.0,
+        34.0,
+        21.200000000000003
+      ],
+      "volume_mm3": 16844.708041643236,
+      "sketches": 11,
+      "extrude_features": 11
+    },
+    {
+      "part": "load_hanger",
+      "native_solids": 1,
+      "mesh_bodies": 0,
+      "dimensions_mm": [
+        26.0,
+        34.0,
+        11.2
+      ],
+      "volume_mm3": 8635.939620019997,
+      "sketches": 8,
+      "extrude_features": 8
+    },
+    {
+      "part": "spar_fit_coupon",
+      "native_solids": 1,
+      "mesh_bodies": 0,
+      "dimensions_mm": [
+        24.0,
+        60.0,
+        8.0
+      ],
+      "volume_mm3": 9682.801575610667,
+      "sketches": 50,
+      "extrude_features": 50
+    }
+  ],
+  "feature_checks": [
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Root tongue",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Continuous flat flexing gauge strip",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Root tapered strip shoulder",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip tapered strip shoulder",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Rib at 28 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front short guide at 28 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front guide print foot at 28 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear short guide at 28 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear guide print foot at 28 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Rib at 48 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front short guide at 48 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front guide print foot at 48 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear short guide at 48 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear guide print foot at 48 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Rib at 68 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front short guide at 68 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front guide print foot at 68 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear short guide at 68 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear guide print foot at 68 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Rib at 88 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front short guide at 88 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front guide print foot at 88 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear short guide at 88 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear guide print foot at 88 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Rib at 108 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front short guide at 108 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front guide print foot at 108 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear short guide at 108 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear guide print foot at 108 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip load landing",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "MPU strap landing",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front 4mm bamboo passage",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear 4mm bamboo passage",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Root registration -8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Root registration 8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip bolt 116 -10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip bolt 116 10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip bolt 124 -10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip bolt 124 10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Board tie 78 -7",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Board tie 78 7",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Board tie 94 -7",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Board tie 94 7",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Bench mounting plate",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Lower root jaw",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Root pin -8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Root pin 8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Jaw bolt 3 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Nut pocket 3 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Jaw bolt 3 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Nut pocket 3 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Jaw bolt 20 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Nut pocket 20 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Jaw bolt 20 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Nut pocket 20 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Bench slot -32",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Bench slot 32",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Root cap",
+      "feature": "Upper root jaw",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Root cap",
+      "feature": "Cap bolt 3 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Root cap",
+      "feature": "Cap bolt 3 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Root cap",
+      "feature": "Cap bolt 20 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Root cap",
+      "feature": "Cap bolt 20 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Adapter plate",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Wing adapter bolt 4 -10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Wing adapter bolt 4 10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Wing adapter bolt 12 -10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Wing adapter bolt 12 10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Fixed mount sliding rail -11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Fixed mount sliding rail 11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Glue carrier body",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "END ONLY 10x24 glue landing",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Shallow glue key groove -3",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Shallow glue key groove 0",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Shallow glue key groove 3",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Optional tie return slot -13.5",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Optional tie return slot 13.5",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Pedestal rail bolt -9 -11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Pedestal rail bolt -9 11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Pedestal rail bolt 9 -11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Pedestal rail bolt 9 11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Glue carrier body",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "END ONLY 10x24 glue landing",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Shallow glue key groove -3",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Shallow glue key groove 0",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Shallow glue key groove 3",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Optional tie return slot -13.5",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Optional tie return slot 13.5",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Transverse cord hole",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Fit block",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Horizontal 4.1 mm fit bore",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 0 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 0 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 0 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 0 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 dot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 2 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 2 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Horizontal 4.3 mm fit bore",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 0 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 0 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 0 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 0 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 dot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 2 a",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 2 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 2 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 2 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 2 d",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Horizontal 4.4 mm fit bore",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 0 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 0 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 0 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 0 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 dot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 2 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 2 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 2 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 2 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Horizontal 4.5 mm fit bore",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 0 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 0 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 0 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 0 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 dot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 2 a",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 2 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 2 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 2 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 2 d",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Horizontal 4.7 mm fit bore",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 0 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 0 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 0 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 0 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 dot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 2 a",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 2 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 2 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Root tongue",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Continuous flat flexing gauge strip",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Root tapered strip shoulder",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip tapered strip shoulder",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Rib at 28 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front short guide at 28 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front guide print foot at 28 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear short guide at 28 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear guide print foot at 28 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Rib at 48 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front short guide at 48 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front guide print foot at 48 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear short guide at 48 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear guide print foot at 48 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Rib at 68 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front short guide at 68 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front guide print foot at 68 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear short guide at 68 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear guide print foot at 68 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Rib at 88 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front short guide at 88 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front guide print foot at 88 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear short guide at 88 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear guide print foot at 88 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Rib at 108 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front short guide at 108 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front guide print foot at 108 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear short guide at 108 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear guide print foot at 108 mm",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip load landing",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "MPU strap landing",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "front 4mm bamboo passage",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "rear 4mm bamboo passage",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Root registration -8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Root registration 8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip bolt 116 -10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip bolt 116 10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip bolt 124 -10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Tip bolt 124 10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Board tie 78 -7",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Board tie 78 7",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Board tie 94 -7",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Flexible wing - short 4.5mm spar guides",
+      "feature": "Board tie 94 7",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Bench mounting plate",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Lower root jaw",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Root pin -8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Root pin 8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Jaw bolt 3 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Nut pocket 3 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Jaw bolt 3 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Nut pocket 3 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Jaw bolt 20 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Nut pocket 20 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Jaw bolt 20 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Nut pocket 20 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Bench slot -32",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Root base - bench clamp",
+      "feature": "Bench slot 32",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Root cap",
+      "feature": "Upper root jaw",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Root cap",
+      "feature": "Cap bolt 3 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Root cap",
+      "feature": "Cap bolt 3 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Root cap",
+      "feature": "Cap bolt 20 -43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Root cap",
+      "feature": "Cap bolt 20 43",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Adapter plate",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Wing adapter bolt 4 -10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Wing adapter bolt 4 10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Wing adapter bolt 12 -10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Wing adapter bolt 12 10",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Fixed mount sliding rail -11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Tip adapter - adjustable glue mount rails",
+      "feature": "Fixed mount sliding rail 11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Glue carrier body",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "END ONLY 10x24 glue landing",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Shallow glue key groove -3",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Shallow glue key groove 0",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Shallow glue key groove 3",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Optional tie return slot -13.5",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Optional tie return slot 13.5",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Pedestal rail bolt -9 -11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Pedestal rail bolt -9 11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Pedestal rail bolt 9 -11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "05 Fixed end glue pedestal",
+      "feature": "Pedestal rail bolt 9 11",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Glue carrier body",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "END ONLY 10x24 glue landing",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Shallow glue key groove -3",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Shallow glue key groove 0",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Shallow glue key groove 3",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Optional tie return slot -13.5",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Optional tie return slot 13.5",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "06 Free end glue hanger",
+      "feature": "Transverse cord hole",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Fit block",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Horizontal 4.1 mm fit bore",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 0 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 0 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 0 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 0 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 dot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 2 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.1 digit 2 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Horizontal 4.3 mm fit bore",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 0 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 0 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 0 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 0 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 dot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 2 a",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 2 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 2 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 2 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.3 digit 2 d",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Horizontal 4.4 mm fit bore",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 0 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 0 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 0 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 0 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 dot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 2 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 2 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 2 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.4 digit 2 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Horizontal 4.5 mm fit bore",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 0 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 0 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 0 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 0 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 dot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 2 a",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 2 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 2 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 2 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.5 digit 2 d",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Horizontal 4.7 mm fit bore",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 0 f",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 0 g",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 0 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 0 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 dot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 2 a",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 2 b",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+      "feature": "Label 4.7 digit 2 c",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - bamboo, example bar cell, sensor envelopes",
+      "feature": "EXAMPLE 60mm bar cell - no assumed screw pattern",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - bamboo, example bar cell, sensor envelopes",
+      "feature": "4mm bamboo reference -18",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - bamboo, example bar cell, sensor envelopes",
+      "feature": "4mm bamboo reference 18",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - bamboo, example bar cell, sensor envelopes",
+      "feature": "MPU board envelope",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - bamboo, example bar cell, sensor envelopes",
+      "feature": "Gauge backing envelope",
+      "healthy": true,
+      "message": ""
+    }
+  ],
+  "exports": {
+    "assembly_f3d": "cad/fusion/SkySafe_Assembly.f3d",
+    "print_parts_f3d": "cad/fusion/SkySafe_PrintParts.f3d",
+    "separate_parts": 7,
+    "stl_parts": 7,
+    "step_parts": 7
+  },
+  "limitations": [
+    "Rectangular bar cells only; reference sensor dimensions unmeasured",
+    "Hot glue attachment has no validated strength or creep performance",
+    "No physical fit/strength validation",
+    "Layout sketch coordinates are fixed; edit sketches or rebuild for layout changes"
+  ],
+  "phase": "Gauge backing envelope",
+  "spar_parameter_trial": [
+    {
+      "clearance": "0.4 mm",
+      "measured_channel_diameters_mm": [
+        4.4,
+        4.4
+      ]
+    },
+    {
+      "clearance": "0.5 mm",
+      "measured_channel_diameters_mm": [
+        4.5,
+        4.5
+      ]
+    }
+  ],
+  "selected_spar_bore_mm": 4.5,
+  "flex_wing": {
+    "revision": "short-guides-v1",
+    "gauge_strip_mm": [
+      104.05,
+      12,
+      1.8
+    ],
+    "guide_outer_diameter_mm": 6.8,
+    "guide_length_mm": 6,
+    "guide_start_x_mm": [
+      26,
+      46,
+      66,
+      86,
+      106
+    ],
+    "guides_per_spar": 5,
+    "continuous_plastic_spar_tubes": false,
+    "continuous_edge_rails": false,
+    "tapered_root_shoulder_x_mm": [
+      23.95,
+      32
+    ],
+    "tapered_tip_shoulder_x_mm": [
+      104,
+      112.05
+    ],
+    "physical_self_weight_and_elastic_range_verified": false
+  },
+  "glue_mount": {
+    "landing_mm": [
+      10,
+      24
+    ],
+    "groove_depth_mm": 0.5,
+    "reference_glue_gap_mm": 0.5,
+    "reference_cell_mm": [
+      60,
+      12.7,
+      12.7
+    ],
+    "reference_free_middle_length_mm": 40,
+    "hanger_plate_clearance_mm": 10,
+    "sensor_screws_required": false,
+    "force_lever_arm_mm": 171
+  },
+  "assembly_positions_mm": {
+    "01 Flexible wing - short 4.5mm spar guides": [
+      0.0,
+      0.0,
+      16.0
+    ],
+    "02 Root base - bench clamp": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "03 Root cap": [
+      0.0,
+      0.0,
+      24.0
+    ],
+    "04 Tip adapter - adjustable glue mount rails": [
+      112.0,
+      0.0,
+      22.95
+    ],
+    "05 Fixed end glue pedestal": [
+      145.0,
+      0.0,
+      28.95
+    ],
+    "06 Free end glue hanger": [
+      195.0,
+      0.0,
+      38.95
+    ],
+    "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7": [
+      -65.0,
+      85.0,
+      0.0
+    ],
+    "REFERENCE ONLY - bamboo, example bar cell, sensor envelopes": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "assembled_interference": {
+    "coincident_faces_excluded": true,
+    "overlaps": [],
+    "passed": true
+  },
+  "source_sha256": "2f9d588eba42a6aea55bd38eca0f70644a2ae7c1dee8cc74503a7b9842d02959",
+  "archive_readback": {
+    "passed": true,
+    "timeline_items": 415,
+    "parts": [
+      {
+        "component": "01 Flexible wing - short 4.5mm spar guides",
+        "solids": 1,
+        "meshes": 0,
+        "sketches": 43,
+        "features": 43
+      },
+      {
+        "component": "02 Root base - bench clamp",
+        "solids": 1,
+        "meshes": 0,
+        "sketches": 14,
+        "features": 14
+      },
+      {
+        "component": "03 Root cap",
+        "solids": 1,
+        "meshes": 0,
+        "sketches": 5,
+        "features": 5
+      },
+      {
+        "component": "04 Tip adapter - adjustable glue mount rails",
+        "solids": 1,
+        "meshes": 0,
+        "sketches": 7,
+        "features": 7
+      },
+      {
+        "component": "05 Fixed end glue pedestal",
+        "solids": 1,
+        "meshes": 0,
+        "sketches": 11,
+        "features": 11
+      },
+      {
+        "component": "06 Free end glue hanger",
+        "solids": 1,
+        "meshes": 0,
+        "sketches": 8,
+        "features": 8
+      },
+      {
+        "component": "07 Spar fit coupon - 4.1 4.3 4.4 4.5 4.7",
+        "solids": 1,
+        "meshes": 0,
+        "sketches": 50,
+        "features": 50
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "scope": "Mesh geometry only; no load rating or printed fit claimed",
+  "parts": [
+    {
+      "part": "cell_spacer.stl",
+      "sha256": "e6ba53a48acaf6f509e21933111eba46531fa481cbf659ad3d3a8f73ba22a887",
+      "dimensions_mm": [
+        26.0,
+        34.0,
+        21.2
+      ],
+      "triangles": 5028,
+      "volume_mm3": 16846.511,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "one_connected_solid": true,
+        "fits_140_mm_volume": true,
+        "fits_130_mm_xy_with_5_mm_bed_margin": true,
+        "flat_on_z_zero": true
+      },
+      "passed": true
+    },
+    {
+      "part": "load_hanger.stl",
+      "sha256": "09cbd8b1bf7b1dc18d87eb44bd20e39bb62daf6e784a1268cd805a617fc33df5",
+      "dimensions_mm": [
+        26.0,
+        34.0,
+        11.2
+      ],
+      "triangles": 2776,
+      "volume_mm3": 8636.475,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "one_connected_solid": true,
+        "fits_140_mm_volume": true,
+        "fits_130_mm_xy_with_5_mm_bed_margin": true,
+        "flat_on_z_zero": true
+      },
+      "passed": true
+    },
+    {
+      "part": "root_base.stl",
+      "sha256": "d169a280cff3ef2a302b4a156a1c30c212a0cd299d483d1dc21e162b694047d5",
+      "dimensions_mm": [
+        110.0,
+        100.0,
+        18.0
+      ],
+      "triangles": 1764,
+      "volume_mm3": 107544.464,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "one_connected_solid": true,
+        "fits_140_mm_volume": true,
+        "fits_130_mm_xy_with_5_mm_bed_margin": true,
+        "flat_on_z_zero": true
+      },
+      "passed": true
+    },
+    {
+      "part": "root_cap.stl",
+      "sha256": "7454140ed06a9c9108521e9715440806e074262b5073a5de847e5dd9305c49df",
+      "dimensions_mm": [
+        30.0,
+        98.0,
+        8.0
+      ],
+      "triangles": 1132,
+      "volume_mm3": 23034.942,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "one_connected_solid": true,
+        "fits_140_mm_volume": true,
+        "fits_130_mm_xy_with_5_mm_bed_margin": true,
+        "flat_on_z_zero": true
+      },
+      "passed": true
+    },
+    {
+      "part": "spar_fit_coupon.stl",
+      "sha256": "7802f8153de031e1a11fac37b4535f559139c430b08396d3f6f708b4e67e6825",
+      "dimensions_mm": [
+        24.0,
+        60.0,
+        8.0
+      ],
+      "triangles": 4044,
+      "volume_mm3": 9686.316,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "one_connected_solid": true,
+        "fits_140_mm_volume": true,
+        "fits_130_mm_xy_with_5_mm_bed_margin": true,
+        "flat_on_z_zero": true
+      },
+      "passed": true
+    },
+    {
+      "part": "tip_adapter.stl",
+      "sha256": "960d64fef868a6043c03e615484e234d9974362879fb7728b04f53a796bd1492",
+      "dimensions_mm": [
+        90.0,
+        38.0,
+        6.0
+      ],
+      "triangles": 1060,
+      "volume_mm3": 18072.767,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "one_connected_solid": true,
+        "fits_140_mm_volume": true,
+        "fits_130_mm_xy_with_5_mm_bed_margin": true,
+        "flat_on_z_zero": true
+      },
+      "passed": true
+    },
+    {
+      "part": "wing.stl",
+      "sha256": "4183fbacbcb92d6f14e66950fabb150cd5722be49162ba82435f9e7ba212ea43",
+      "dimensions_mm": [
+        128.0,
+        72.0,
+        8.0
+      ],
+      "triangles": 8156,
+      "volume_mm3": 27845.918,
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "one_connected_solid": true,
+        "fits_140_mm_volume": true,
+        "fits_130_mm_xy_with_5_mm_bed_margin": true,
+        "flat_on_z_zero": true
+      },
+      "passed": true
+    }
+  ],
+  "source_sha256": "2f9d588eba42a6aea55bd38eca0f70644a2ae7c1dee8cc74503a7b9842d02959",
+  "trimesh_version": "5.1.1",
+  "passed": true
+}

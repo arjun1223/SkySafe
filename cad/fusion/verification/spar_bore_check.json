@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "scope": "Export geometry only; self-weight sag and elastic range untested",
+  "source_sha256": "2f9d588eba42a6aea55bd38eca0f70644a2ae7c1dee8cc74503a7b9842d02959",
+  "wing_sha256": "4183fbacbcb92d6f14e66950fabb150cd5722be49162ba82435f9e7ba212ea43",
+  "selected_bore_mm": 4.5,
+  "bores": [
+    {
+      "section_x_mm": 10,
+      "center_yz_mm": [
+        -17.99999986643138,
+        3.3999999593283317
+      ],
+      "diameter_mm": 4.494533321792719
+    },
+    {
+      "section_x_mm": 10,
+      "center_yz_mm": [
+        17.9999998664212,
+        3.39999995935195
+      ],
+      "diameter_mm": 4.494533321792881
+    },
+    {
+      "section_x_mm": 29,
+      "center_yz_mm": [
+        -17.99999986652417,
+        3.3999999593824284
+      ],
+      "diameter_mm": 4.492709680218105
+    },
+    {
+      "section_x_mm": 29,
+      "center_yz_mm": [
+        17.999999866524163,
+        3.3999999593824355
+      ],
+      "diameter_mm": 4.492709680218051
+    },
+    {
+      "section_x_mm": 49,
+      "center_yz_mm": [
+        -17.99999986652417,
+        3.3999999593824284
+      ],
+      "diameter_mm": 4.492709680218105
+    },
+    {
+      "section_x_mm": 49,
+      "center_yz_mm": [
+        17.999999866524163,
+        3.3999999593824355
+      ],
+      "diameter_mm": 4.492709680218051
+    },
+    {
+      "section_x_mm": 69,
+      "center_yz_mm": [
+        -17.99999986652417,
+        3.3999999593824284
+      ],
+      "diameter_mm": 4.492709680218105
+    },
+    {
+      "section_x_mm": 69,
+      "center_yz_mm": [
+        17.999999866524163,
+        3.3999999593824355
+      ],
+      "diameter_mm": 4.492709680218051
+    },
+    {
+      "section_x_mm": 89,
+      "center_yz_mm": [
+        -17.99999986652417,
+        3.3999999593824284
+      ],
+      "diameter_mm": 4.492709680218105
+    },
+    {
+      "section_x_mm": 89,
+      "center_yz_mm": [
+        17.999999866524163,
+        3.3999999593824355
+      ],
+      "diameter_mm": 4.492709680218051
+    },
+    {
+      "section_x_mm": 109,
+      "center_yz_mm": [
+        -18.000088335038072,
+        3.4000099773890615
+      ],
+      "diameter_mm": 4.492693464838991
+    },
+    {
+      "section_x_mm": 109,
+      "center_yz_mm": [
+        18.000088163025346,
+        3.4000114045387066
+      ],
+      "diameter_mm": 4.492693463567674
+    },
+    {
+      "section_x_mm": 120,
+      "center_yz_mm": [
+        -17.999999928413537,
+        3.400000901626131
+      ],
+      "diameter_mm": 4.497248744596943
+    },
+    {
+      "section_x_mm": 120,
+      "center_yz_mm": [
+        17.99999980535309,
+        3.400000900177387
+      ],
+      "diameter_mm": 4.497248744609211
+    }
+  ],
+  "open_bays": [
+    {
+      "section_x_mm": 40,
+      "strip_width_mm": 12.0,
+      "strip_thickness_mm": 1.7999999523162842,
+      "no_spar_tubes_or_edge_rails": true
+    },
+    {
+      "section_x_mm": 60,
+      "strip_width_mm": 12.0,
+      "strip_thickness_mm": 1.7999999523162842,
+      "no_spar_tubes_or_edge_rails": true
+    }
+  ]
+}

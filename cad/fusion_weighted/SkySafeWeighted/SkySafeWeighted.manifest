@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "SkySafe",
+  "description": {"": "Build a weighted SkySafe root stand using M3 fasteners and the existing root cap."},
+  "supportedOS": "mac|windows",
+  "editEnabled": true,
+  "version": "1.0.0"
+}

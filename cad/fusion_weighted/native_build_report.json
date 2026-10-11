@@ -1,0 +1,583 @@
+{
+  "status": "PASS - native history and geometry; physical validation pending",
+  "parts": [
+    {
+      "part": "weighted_root_base",
+      "native_solids": 1,
+      "mesh_bodies": 0,
+      "dimensions_mm": [
+        130.0,
+        110.0,
+        10.0
+      ],
+      "volume_mm3": 86717.29984352467,
+      "sketches": 17
+    },
+    {
+      "part": "ballast_tray",
+      "native_solids": 1,
+      "mesh_bodies": 0,
+      "dimensions_mm": [
+        130.0,
+        110.0,
+        10.0
+      ],
+      "volume_mm3": 89888.74183654747,
+      "sketches": 10
+    },
+    {
+      "part": "tray_bridge",
+      "native_solids": 1,
+      "mesh_bodies": 0,
+      "dimensions_mm": [
+        24.2,
+        98.0,
+        4.0
+      ],
+      "volume_mm3": 9341.132755698001,
+      "sketches": 5
+    }
+  ],
+  "feature_checks": [
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Rear tray floor",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Rear weight stop",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Rear tray side lip -55",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Rear tray side lip 52",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Tray joint rear bolt -40 clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Tray joint rear bolt -40 recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Tray joint rear bolt 40 clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Tray joint rear bolt 40 recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Weight center line X",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Weight center line Y",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Tray joint bridge - PRINT ONE",
+      "feature": "Wide upper splice",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Tray joint bridge - PRINT ONE",
+      "feature": "Tray splice hole (6, -40)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Tray joint bridge - PRINT ONE",
+      "feature": "Tray splice hole (6, 40)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Tray joint bridge - PRINT ONE",
+      "feature": "Tray splice hole (18.2, -40)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Tray joint bridge - PRINT ONE",
+      "feature": "Tray splice hole (18.2, 40)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Flat root support floor",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Front tray side lip -55",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Front tray side lip 52",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root locating pin -8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root locating pin 8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (3, -43) clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (3, -43) recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (3, 43) clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (3, 43) recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (20, -43) clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (20, -43) recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (20, 43) clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (20, 43) recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Tray joint front bolt -40 clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Tray joint front bolt -40 recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Tray joint front bolt 40 clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Tray joint front bolt 40 recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Existing root cap - REUSE",
+      "feature": "Original upper root jaw",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Existing root cap - REUSE",
+      "feature": "Original M4 clearance (3, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Existing root cap - REUSE",
+      "feature": "Original M4 clearance (3, 43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Existing root cap - REUSE",
+      "feature": "Original M4 clearance (20, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Existing root cap - REUSE",
+      "feature": "Original M4 clearance (20, 43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Flat root support floor",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Front tray side lip -55",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Front tray side lip 52",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root locating pin -8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root locating pin 8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (3, -43) clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (3, -43) recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (3, 43) clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (3, 43) recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (20, -43) clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (20, -43) recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (20, 43) clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Root bolt (20, 43) recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Tray joint front bolt -40 clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Tray joint front bolt -40 recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Tray joint front bolt 40 clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Weighted root base - PRINT ONE",
+      "feature": "Tray joint front bolt 40 recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Rear tray floor",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Rear weight stop",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Rear tray side lip -55",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Rear tray side lip 52",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Tray joint rear bolt -40 clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Tray joint rear bolt -40 recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Tray joint rear bolt 40 clearance",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Tray joint rear bolt 40 recessed head",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Weight center line X",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Rear ballast tray - PRINT ONE",
+      "feature": "Weight center line Y",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Tray joint bridge - PRINT ONE",
+      "feature": "Wide upper splice",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Tray joint bridge - PRINT ONE",
+      "feature": "Tray splice hole (6, -40)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Tray joint bridge - PRINT ONE",
+      "feature": "Tray splice hole (6, 40)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Tray joint bridge - PRINT ONE",
+      "feature": "Tray splice hole (18.2, -40)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "03 Tray joint bridge - PRINT ONE",
+      "feature": "Tray splice hole (18.2, 40)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - root tongue and unloaded wing span",
+      "feature": "Existing root tongue envelope",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - root tongue and unloaded wing span",
+      "feature": "Original pin socket -8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - root tongue and unloaded wing span",
+      "feature": "Original pin socket 8",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - root tongue and unloaded wing span",
+      "feature": "Root bamboo passage -18",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - root tongue and unloaded wing span",
+      "feature": "Root bamboo passage 18",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - root tongue and unloaded wing span",
+      "feature": "Existing wing bending span envelope",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Existing root cap - REUSE",
+      "feature": "Original upper root jaw",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Existing root cap - REUSE",
+      "feature": "Original M4 clearance (3, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Existing root cap - REUSE",
+      "feature": "Original M4 clearance (3, 43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Existing root cap - REUSE",
+      "feature": "Original M4 clearance (20, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "04 Existing root cap - REUSE",
+      "feature": "Original M4 clearance (20, 43)",
+      "healthy": true,
+      "message": ""
+    }
+  ],
+  "exports": {
+    "assembly_f3d": "cad/fusion_weighted/SkySafe_Weighted_Holder.f3d",
+    "stl_parts": 3,
+    "step_parts": 3
+  },
+  "scope": "Native geometry; printed strength, tipping and sliding must be checked physically",
+  "revision": "weighted-m3-v1",
+  "assembled_footprint_mm": [
+    260.2,
+    110
+  ],
+  "front_support_x_mm": 26,
+  "nominal_loading_x_mm": 423.4,
+  "rear_tray_weight_center_x_mm": -176.0,
+  "reused_cap": "../fusion_14inch/root_cap.f3d",
+  "root_fasteners": "Four M3 x 30 mm, heads recessed underneath; washers/nuts above cap",
+  "tray_fasteners": "Four M3 x 12-30 mm, heads recessed underneath; washers/nuts above bridge",
+  "limitations": [
+    "No physical load rating",
+    "Ballast mass, position and table friction unmeasured",
+    "Support-free counterbore roofs need slicer/print inspection",
+    "Reference wing envelope is not a replacement wing"
+  ],
+  "phase": "Existing wing bending span envelope",
+  "assembled_interference": {
+    "passed": true,
+    "overlaps": []
+  },
+  "source_sha256": "2bcc83ba27dd5e769eb203dbd4446d222194f8c248da46e29f424ec4e87b3dc1",
+  "helper_source_sha256": "8accce186577d8e3df5f728b0725c83ef0be89ef376bfb3d286701815b7688a3",
+  "archive_readback": {
+    "passed": true,
+    "timeline_items": 131,
+    "components": [
+      {
+        "part": "weighted_root_base",
+        "sketches": 17,
+        "solids": 1,
+        "meshes": 0
+      },
+      {
+        "part": "ballast_tray",
+        "sketches": 10,
+        "solids": 1,
+        "meshes": 0
+      },
+      {
+        "part": "tray_bridge",
+        "sketches": 5,
+        "solids": 1,
+        "meshes": 0
+      },
+      {
+        "part": "REUSE_root_cap",
+        "sketches": 5,
+        "solids": 1,
+        "meshes": 0
+      }
+    ]
+  }
+}

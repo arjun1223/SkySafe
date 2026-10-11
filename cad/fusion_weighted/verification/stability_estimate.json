@@ -1,0 +1,29 @@
+{
+  "scope": "Calculated applied-load moments only. Excludes wing/fixture self-weight, friction, print strength and dynamics; no physical load rating.",
+  "support_front_x_mm": 26,
+  "ballast_center_x_mm": -176,
+  "load_point_x_mm": 423.4,
+  "rear_lever_mm": 202,
+  "front_lever_mm": 397.4,
+  "ballast_kg_to_balance_10N_ignoring_rig": 2.006114965531825,
+  "ballast_kg_for_twice_10N_moment_ignoring_rig": 4.01222993106365,
+  "mass_examples": [
+    {
+      "ballast_kg": 1,
+      "applied_force_n_with_twice_moment_allowance_ignoring_rig": 2.492379592350277
+    },
+    {
+      "ballast_kg": 2,
+      "applied_force_n_with_twice_moment_allowance_ignoring_rig": 4.984759184700554
+    },
+    {
+      "ballast_kg": 3,
+      "applied_force_n_with_twice_moment_allowance_ignoring_rig": 7.477138777050832
+    },
+    {
+      "ballast_kg": 4,
+      "applied_force_n_with_twice_moment_allowance_ignoring_rig": 9.969518369401108
+    }
+  ],
+  "physically_verified": false
+}

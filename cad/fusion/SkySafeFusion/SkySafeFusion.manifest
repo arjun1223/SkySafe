@@ -1,0 +1,11 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "SkySafe",
+  "description": {
+    "": "Build SkySafe as native sketch and solid features in a new Fusion document; export local F3D, STEP and STL."
+  },
+  "supportedOS": "mac|windows",
+  "editEnabled": true,
+  "version": "1.2.0"
+}

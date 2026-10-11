@@ -1,0 +1,42 @@
+{
+  "verified_on": "2026-10-11",
+  "board": "ESP32-D0WD-V3",
+  "port": "/dev/cu.usbserial-0001",
+  "pins": {
+    "HX711_DT": 32,
+    "HX711_SCK": 33,
+    "IMU_SDA": 21,
+    "IMU_SCL": 22
+  },
+  "baud": 115200,
+  "telemetry_hz": 5,
+  "simulation": false,
+  "connection": {
+    "age_seconds": 0.007887208834290504,
+    "connected": true,
+    "error": null,
+    "invalid_lines": 701
+  },
+  "sensor_status": {
+    "load": "ok",
+    "strain": "disabled",
+    "ultrasonic": "disabled",
+    "vibration": "ok"
+  },
+  "load_raw": 186439,
+  "force_calibrated": false,
+  "zeroed": false,
+  "tests_passed": 56,
+  "physical_load_response_verified": false,
+  "notes": "115200-baud real hardware. IMU on D21/D22 at address 0x68 reports identity 0x70; explicit compatibility profile accepted after range readback. Both sensors communicate; force calibration and mounted wing tests remain pending.",
+  "imu_label": "MPU6050 (user identification)",
+  "imu_identity": 112,
+  "imu_stationary_acceleration_m_s2": [
+    9.053674,
+    -0.020351,
+    -4.090494
+  ],
+  "imu_stationary_communication_verified": true,
+  "physical_imu_motion_verified": true,
+  "imu_motion_evidence": "docs/imu_motion_check.json"
+}

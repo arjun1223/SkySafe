@@ -1,0 +1,5942 @@
+{
+  "connection": {
+    "age_seconds": 0.030516874976456165,
+    "connected": true,
+    "error": null,
+    "invalid_lines": 1043
+  },
+  "latest": {
+    "timestamp": "2026-10-11T10:39:38.595543+00:00",
+    "load_raw": 181009,
+    "strain_raw": 4366460.0,
+    "sensor_status": {
+      "load": "ok",
+      "strain": "ok",
+      "ultrasonic": "disabled",
+      "vibration": "ok"
+    },
+    "status": "NEEDS_CALIBRATION",
+    "zeroed": false,
+    "force_calibrated": false
+  },
+  "hardware_mode": true,
+  "strain_enabled": true,
+  "strain_pins": {
+    "DT": 25,
+    "SCK": 26
+  },
+  "compiled_flash_bytes": 331248,
+  "compiled_ram_bytes": 25764,
+  "flash_hash_verified": true,
+  "test_limit": "Electrical ADC communication and range only. Gauge-to-wing bonding, force recalibration and structural response/baseline remain unverified.",
+  "load_raw_summary": {
+    "samples": 453,
+    "minimum": 149405,
+    "maximum": 181073,
+    "mean": 180705.86092715233,
+    "standard_deviation": 1785.160688804513,
+    "first_timestamp": "2026-10-11T10:38:08.018093+00:00",
+    "last_timestamp": "2026-10-11T10:39:38.595543+00:00"
+  },
+  "strain_raw_summary": {
+    "samples": 453,
+    "minimum": 4254108.0,
+    "maximum": 4366870.0,
+    "mean": 4292763.286975717,
+    "standard_deviation": 26287.01987785845,
+    "first_timestamp": "2026-10-11T10:38:08.018093+00:00",
+    "last_timestamp": "2026-10-11T10:39:38.595543+00:00"
+  },
+  "config_sha256": "ce29d9166599debb047d2cd771fffb542b302e7dd1048bda757160235e984026",
+  "samples": [
+    {
+      "seq": 73,
+      "timestamp": "2026-10-11T10:38:08.018093+00:00",
+      "time_ms": 35612,
+      "strain_raw": 4267592.0,
+      "load_raw": 180858,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 74,
+      "timestamp": "2026-10-11T10:38:08.218133+00:00",
+      "time_ms": 35812,
+      "strain_raw": 4267895.0,
+      "load_raw": 180919,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 75,
+      "timestamp": "2026-10-11T10:38:08.418463+00:00",
+      "time_ms": 36012,
+      "strain_raw": 4267805.0,
+      "load_raw": 180897,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 76,
+      "timestamp": "2026-10-11T10:38:08.618324+00:00",
+      "time_ms": 36212,
+      "strain_raw": 4267933.0,
+      "load_raw": 180928,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 77,
+      "timestamp": "2026-10-11T10:38:08.818095+00:00",
+      "time_ms": 36412,
+      "strain_raw": 4268129.0,
+      "load_raw": 180897,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 78,
+      "timestamp": "2026-10-11T10:38:09.018341+00:00",
+      "time_ms": 36612,
+      "strain_raw": 4268200.0,
+      "load_raw": 180875,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 79,
+      "timestamp": "2026-10-11T10:38:09.218484+00:00",
+      "time_ms": 36812,
+      "strain_raw": 4268357.0,
+      "load_raw": 180924,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 80,
+      "timestamp": "2026-10-11T10:38:09.416372+00:00",
+      "time_ms": 37012,
+      "strain_raw": 4268731.0,
+      "load_raw": 180891,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 81,
+      "timestamp": "2026-10-11T10:38:09.618115+00:00",
+      "time_ms": 37212,
+      "strain_raw": 4269182.0,
+      "load_raw": 180879,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 82,
+      "timestamp": "2026-10-11T10:38:09.818173+00:00",
+      "time_ms": 37412,
+      "strain_raw": 4269822.0,
+      "load_raw": 180895,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 83,
+      "timestamp": "2026-10-11T10:38:10.016558+00:00",
+      "time_ms": 37612,
+      "strain_raw": 4271032.0,
+      "load_raw": 180909,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 84,
+      "timestamp": "2026-10-11T10:38:10.217518+00:00",
+      "time_ms": 37812,
+      "strain_raw": 4272027.0,
+      "load_raw": 180864,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 85,
+      "timestamp": "2026-10-11T10:38:10.418148+00:00",
+      "time_ms": 38012,
+      "strain_raw": 4273173.0,
+      "load_raw": 180916,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 86,
+      "timestamp": "2026-10-11T10:38:10.617619+00:00",
+      "time_ms": 38212,
+      "strain_raw": 4274855.0,
+      "load_raw": 180845,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 87,
+      "timestamp": "2026-10-11T10:38:10.816611+00:00",
+      "time_ms": 38412,
+      "strain_raw": 4275948.0,
+      "load_raw": 180939,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 88,
+      "timestamp": "2026-10-11T10:38:11.017036+00:00",
+      "time_ms": 38612,
+      "strain_raw": 4276847.0,
+      "load_raw": 180807,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 89,
+      "timestamp": "2026-10-11T10:38:11.217319+00:00",
+      "time_ms": 38812,
+      "strain_raw": 4277698.0,
+      "load_raw": 180927,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 90,
+      "timestamp": "2026-10-11T10:38:11.418348+00:00",
+      "time_ms": 39012,
+      "strain_raw": 4278758.0,
+      "load_raw": 180903,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 91,
+      "timestamp": "2026-10-11T10:38:11.618237+00:00",
+      "time_ms": 39212,
+      "strain_raw": 4279396.0,
+      "load_raw": 180822,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 92,
+      "timestamp": "2026-10-11T10:38:11.817462+00:00",
+      "time_ms": 39412,
+      "strain_raw": 4280027.0,
+      "load_raw": 180860,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 93,
+      "timestamp": "2026-10-11T10:38:12.018584+00:00",
+      "time_ms": 39612,
+      "strain_raw": 4280945.0,
+      "load_raw": 180896,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 94,
+      "timestamp": "2026-10-11T10:38:12.218034+00:00",
+      "time_ms": 39812,
+      "strain_raw": 4281384.0,
+      "load_raw": 180890,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 95,
+      "timestamp": "2026-10-11T10:38:12.416438+00:00",
+      "time_ms": 40012,
+      "strain_raw": 4281826.0,
+      "load_raw": 180868,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 96,
+      "timestamp": "2026-10-11T10:38:12.618169+00:00",
+      "time_ms": 40212,
+      "strain_raw": 4282344.0,
+      "load_raw": 180894,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 97,
+      "timestamp": "2026-10-11T10:38:12.818654+00:00",
+      "time_ms": 40412,
+      "strain_raw": 4283512.0,
+      "load_raw": 180898,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 98,
+      "timestamp": "2026-10-11T10:38:13.018121+00:00",
+      "time_ms": 40612,
+      "strain_raw": 4284404.0,
+      "load_raw": 180869,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 99,
+      "timestamp": "2026-10-11T10:38:13.218821+00:00",
+      "time_ms": 40812,
+      "strain_raw": 4285461.0,
+      "load_raw": 180896,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 100,
+      "timestamp": "2026-10-11T10:38:13.416445+00:00",
+      "time_ms": 41012,
+      "strain_raw": 4286516.0,
+      "load_raw": 180931,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 101,
+      "timestamp": "2026-10-11T10:38:13.618252+00:00",
+      "time_ms": 41212,
+      "strain_raw": 4288008.0,
+      "load_raw": 180923,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 102,
+      "timestamp": "2026-10-11T10:38:13.818394+00:00",
+      "time_ms": 41412,
+      "strain_raw": 4288969.0,
+      "load_raw": 180865,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 103,
+      "timestamp": "2026-10-11T10:38:14.016582+00:00",
+      "time_ms": 41612,
+      "strain_raw": 4289789.0,
+      "load_raw": 180865,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 104,
+      "timestamp": "2026-10-11T10:38:14.217797+00:00",
+      "time_ms": 41812,
+      "strain_raw": 4290794.0,
+      "load_raw": 180868,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 105,
+      "timestamp": "2026-10-11T10:38:14.418228+00:00",
+      "time_ms": 42012,
+      "strain_raw": 4291285.0,
+      "load_raw": 180873,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 106,
+      "timestamp": "2026-10-11T10:38:14.618399+00:00",
+      "time_ms": 42212,
+      "strain_raw": 4291429.0,
+      "load_raw": 180886,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 107,
+      "timestamp": "2026-10-11T10:38:14.818263+00:00",
+      "time_ms": 42412,
+      "strain_raw": 4291536.0,
+      "load_raw": 180916,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 108,
+      "timestamp": "2026-10-11T10:38:15.018197+00:00",
+      "time_ms": 42612,
+      "strain_raw": 4291497.0,
+      "load_raw": 180932,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 109,
+      "timestamp": "2026-10-11T10:38:15.217116+00:00",
+      "time_ms": 42812,
+      "strain_raw": 4291622.0,
+      "load_raw": 180875,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 110,
+      "timestamp": "2026-10-11T10:38:15.418493+00:00",
+      "time_ms": 43012,
+      "strain_raw": 4291774.0,
+      "load_raw": 180874,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 111,
+      "timestamp": "2026-10-11T10:38:15.617569+00:00",
+      "time_ms": 43212,
+      "strain_raw": 4292029.0,
+      "load_raw": 180954,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 112,
+      "timestamp": "2026-10-11T10:38:15.818291+00:00",
+      "time_ms": 43412,
+      "strain_raw": 4292441.0,
+      "load_raw": 180969,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 113,
+      "timestamp": "2026-10-11T10:38:16.018481+00:00",
+      "time_ms": 43612,
+      "strain_raw": 4292792.0,
+      "load_raw": 180889,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 114,
+      "timestamp": "2026-10-11T10:38:16.218479+00:00",
+      "time_ms": 43812,
+      "strain_raw": 4293184.0,
+      "load_raw": 180891,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 115,
+      "timestamp": "2026-10-11T10:38:16.418446+00:00",
+      "time_ms": 44012,
+      "strain_raw": 4293747.0,
+      "load_raw": 180846,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 116,
+      "timestamp": "2026-10-11T10:38:16.618120+00:00",
+      "time_ms": 44212,
+      "strain_raw": 4293874.0,
+      "load_raw": 180884,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 117,
+      "timestamp": "2026-10-11T10:38:16.817975+00:00",
+      "time_ms": 44412,
+      "strain_raw": 4293822.0,
+      "load_raw": 180912,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 118,
+      "timestamp": "2026-10-11T10:38:17.018224+00:00",
+      "time_ms": 44612,
+      "strain_raw": 4293714.0,
+      "load_raw": 180862,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 119,
+      "timestamp": "2026-10-11T10:38:17.218184+00:00",
+      "time_ms": 44812,
+      "strain_raw": 4293571.0,
+      "load_raw": 180903,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 120,
+      "timestamp": "2026-10-11T10:38:17.418180+00:00",
+      "time_ms": 45012,
+      "strain_raw": 4293348.0,
+      "load_raw": 180917,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 121,
+      "timestamp": "2026-10-11T10:38:17.616614+00:00",
+      "time_ms": 45212,
+      "strain_raw": 4293116.0,
+      "load_raw": 180813,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 122,
+      "timestamp": "2026-10-11T10:38:17.816724+00:00",
+      "time_ms": 45412,
+      "strain_raw": 4292703.0,
+      "load_raw": 180889,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 123,
+      "timestamp": "2026-10-11T10:38:18.018463+00:00",
+      "time_ms": 45612,
+      "strain_raw": 4291860.0,
+      "load_raw": 180890,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 124,
+      "timestamp": "2026-10-11T10:38:18.218565+00:00",
+      "time_ms": 45812,
+      "strain_raw": 4291106.0,
+      "load_raw": 180873,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 125,
+      "timestamp": "2026-10-11T10:38:18.418443+00:00",
+      "time_ms": 46012,
+      "strain_raw": 4290528.0,
+      "load_raw": 180925,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 126,
+      "timestamp": "2026-10-11T10:38:18.618198+00:00",
+      "time_ms": 46212,
+      "strain_raw": 4289714.0,
+      "load_raw": 180929,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 127,
+      "timestamp": "2026-10-11T10:38:18.816531+00:00",
+      "time_ms": 46412,
+      "strain_raw": 4289070.0,
+      "load_raw": 180910,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 128,
+      "timestamp": "2026-10-11T10:38:19.018252+00:00",
+      "time_ms": 46612,
+      "strain_raw": 4288585.0,
+      "load_raw": 180829,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 129,
+      "timestamp": "2026-10-11T10:38:19.218208+00:00",
+      "time_ms": 46812,
+      "strain_raw": 4288010.0,
+      "load_raw": 180829,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 130,
+      "timestamp": "2026-10-11T10:38:19.418219+00:00",
+      "time_ms": 47012,
+      "strain_raw": 4287002.0,
+      "load_raw": 180890,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 131,
+      "timestamp": "2026-10-11T10:38:19.616761+00:00",
+      "time_ms": 47212,
+      "strain_raw": 4286505.0,
+      "load_raw": 180877,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 132,
+      "timestamp": "2026-10-11T10:38:19.817741+00:00",
+      "time_ms": 47412,
+      "strain_raw": 4286215.0,
+      "load_raw": 180862,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 133,
+      "timestamp": "2026-10-11T10:38:20.017621+00:00",
+      "time_ms": 47612,
+      "strain_raw": 4286014.0,
+      "load_raw": 180814,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 134,
+      "timestamp": "2026-10-11T10:38:20.218293+00:00",
+      "time_ms": 47812,
+      "strain_raw": 4286179.0,
+      "load_raw": 180878,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 135,
+      "timestamp": "2026-10-11T10:38:20.417029+00:00",
+      "time_ms": 48012,
+      "strain_raw": 4286400.0,
+      "load_raw": 180938,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 136,
+      "timestamp": "2026-10-11T10:38:20.618346+00:00",
+      "time_ms": 48212,
+      "strain_raw": 4286654.0,
+      "load_raw": 180811,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 137,
+      "timestamp": "2026-10-11T10:38:20.818438+00:00",
+      "time_ms": 48412,
+      "strain_raw": 4287184.0,
+      "load_raw": 180905,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 138,
+      "timestamp": "2026-10-11T10:38:21.017936+00:00",
+      "time_ms": 48612,
+      "strain_raw": 4287510.0,
+      "load_raw": 180855,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 139,
+      "timestamp": "2026-10-11T10:38:21.216572+00:00",
+      "time_ms": 48812,
+      "strain_raw": 4287770.0,
+      "load_raw": 180829,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 140,
+      "timestamp": "2026-10-11T10:38:21.418276+00:00",
+      "time_ms": 49012,
+      "strain_raw": 4288085.0,
+      "load_raw": 180850,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 141,
+      "timestamp": "2026-10-11T10:38:21.618856+00:00",
+      "time_ms": 49212,
+      "strain_raw": 4288368.0,
+      "load_raw": 180864,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 142,
+      "timestamp": "2026-10-11T10:38:21.816488+00:00",
+      "time_ms": 49412,
+      "strain_raw": 4288768.0,
+      "load_raw": 180943,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 143,
+      "timestamp": "2026-10-11T10:38:22.016421+00:00",
+      "time_ms": 49612,
+      "strain_raw": 4289249.0,
+      "load_raw": 180883,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 144,
+      "timestamp": "2026-10-11T10:38:22.218346+00:00",
+      "time_ms": 49812,
+      "strain_raw": 4289713.0,
+      "load_raw": 180861,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 145,
+      "timestamp": "2026-10-11T10:38:22.418309+00:00",
+      "time_ms": 50012,
+      "strain_raw": 4290459.0,
+      "load_raw": 180952,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 146,
+      "timestamp": "2026-10-11T10:38:22.616621+00:00",
+      "time_ms": 50212,
+      "strain_raw": 4290837.0,
+      "load_raw": 180897,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 147,
+      "timestamp": "2026-10-11T10:38:22.817565+00:00",
+      "time_ms": 50412,
+      "strain_raw": 4291275.0,
+      "load_raw": 180940,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 148,
+      "timestamp": "2026-10-11T10:38:23.017477+00:00",
+      "time_ms": 50612,
+      "strain_raw": 4291822.0,
+      "load_raw": 180947,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 149,
+      "timestamp": "2026-10-11T10:38:23.217294+00:00",
+      "time_ms": 50812,
+      "strain_raw": 4292103.0,
+      "load_raw": 180883,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 150,
+      "timestamp": "2026-10-11T10:38:23.416397+00:00",
+      "time_ms": 51012,
+      "strain_raw": 4292218.0,
+      "load_raw": 180941,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 151,
+      "timestamp": "2026-10-11T10:38:23.618240+00:00",
+      "time_ms": 51212,
+      "strain_raw": 4292557.0,
+      "load_raw": 180852,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 152,
+      "timestamp": "2026-10-11T10:38:23.817589+00:00",
+      "time_ms": 51412,
+      "strain_raw": 4292429.0,
+      "load_raw": 180947,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 153,
+      "timestamp": "2026-10-11T10:38:24.016896+00:00",
+      "time_ms": 51612,
+      "strain_raw": 4292079.0,
+      "load_raw": 180888,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 154,
+      "timestamp": "2026-10-11T10:38:24.218331+00:00",
+      "time_ms": 51812,
+      "strain_raw": 4291813.0,
+      "load_raw": 180893,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 155,
+      "timestamp": "2026-10-11T10:38:24.418238+00:00",
+      "time_ms": 52012,
+      "strain_raw": 4291257.0,
+      "load_raw": 180873,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 156,
+      "timestamp": "2026-10-11T10:38:24.618303+00:00",
+      "time_ms": 52212,
+      "strain_raw": 4290862.0,
+      "load_raw": 180856,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 157,
+      "timestamp": "2026-10-11T10:38:24.818193+00:00",
+      "time_ms": 52412,
+      "strain_raw": 4290379.0,
+      "load_raw": 180956,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 158,
+      "timestamp": "2026-10-11T10:38:25.016529+00:00",
+      "time_ms": 52612,
+      "strain_raw": 4289935.0,
+      "load_raw": 180895,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 159,
+      "timestamp": "2026-10-11T10:38:25.218364+00:00",
+      "time_ms": 52812,
+      "strain_raw": 4289687.0,
+      "load_raw": 180939,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 160,
+      "timestamp": "2026-10-11T10:38:25.418283+00:00",
+      "time_ms": 53012,
+      "strain_raw": 4289557.0,
+      "load_raw": 180951,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 161,
+      "timestamp": "2026-10-11T10:38:25.618582+00:00",
+      "time_ms": 53212,
+      "strain_raw": 4289347.0,
+      "load_raw": 180905,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 162,
+      "timestamp": "2026-10-11T10:38:25.816923+00:00",
+      "time_ms": 53412,
+      "strain_raw": 4288851.0,
+      "load_raw": 180905,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 163,
+      "timestamp": "2026-10-11T10:38:26.017935+00:00",
+      "time_ms": 53612,
+      "strain_raw": 4287689.0,
+      "load_raw": 180924,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 164,
+      "timestamp": "2026-10-11T10:38:26.218305+00:00",
+      "time_ms": 53812,
+      "strain_raw": 4286760.0,
+      "load_raw": 180941,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 165,
+      "timestamp": "2026-10-11T10:38:26.418247+00:00",
+      "time_ms": 54012,
+      "strain_raw": 4286237.0,
+      "load_raw": 180862,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 166,
+      "timestamp": "2026-10-11T10:38:26.618500+00:00",
+      "time_ms": 54212,
+      "strain_raw": 4285622.0,
+      "load_raw": 180916,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 167,
+      "timestamp": "2026-10-11T10:38:26.817419+00:00",
+      "time_ms": 54412,
+      "strain_raw": 4285425.0,
+      "load_raw": 180860,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 168,
+      "timestamp": "2026-10-11T10:38:27.018132+00:00",
+      "time_ms": 54612,
+      "strain_raw": 4285484.0,
+      "load_raw": 180874,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 169,
+      "timestamp": "2026-10-11T10:38:27.216723+00:00",
+      "time_ms": 54812,
+      "strain_raw": 4285525.0,
+      "load_raw": 180887,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 170,
+      "timestamp": "2026-10-11T10:38:27.417942+00:00",
+      "time_ms": 55012,
+      "strain_raw": 4285610.0,
+      "load_raw": 180897,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 171,
+      "timestamp": "2026-10-11T10:38:27.618261+00:00",
+      "time_ms": 55212,
+      "strain_raw": 4285424.0,
+      "load_raw": 180849,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 172,
+      "timestamp": "2026-10-11T10:38:27.818487+00:00",
+      "time_ms": 55412,
+      "strain_raw": 4285385.0,
+      "load_raw": 180921,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 173,
+      "timestamp": "2026-10-11T10:38:28.018438+00:00",
+      "time_ms": 55612,
+      "strain_raw": 4285278.0,
+      "load_raw": 180894,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 174,
+      "timestamp": "2026-10-11T10:38:28.217440+00:00",
+      "time_ms": 55812,
+      "strain_raw": 4285079.0,
+      "load_raw": 180930,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 175,
+      "timestamp": "2026-10-11T10:38:28.418414+00:00",
+      "time_ms": 56012,
+      "strain_raw": 4284832.0,
+      "load_raw": 180896,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 176,
+      "timestamp": "2026-10-11T10:38:28.616751+00:00",
+      "time_ms": 56212,
+      "strain_raw": 4284470.0,
+      "load_raw": 180877,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 177,
+      "timestamp": "2026-10-11T10:38:28.816847+00:00",
+      "time_ms": 56412,
+      "strain_raw": 4284284.0,
+      "load_raw": 180845,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 178,
+      "timestamp": "2026-10-11T10:38:29.018461+00:00",
+      "time_ms": 56612,
+      "strain_raw": 4284298.0,
+      "load_raw": 180853,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 179,
+      "timestamp": "2026-10-11T10:38:29.217698+00:00",
+      "time_ms": 56812,
+      "strain_raw": 4284288.0,
+      "load_raw": 180854,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 180,
+      "timestamp": "2026-10-11T10:38:29.417794+00:00",
+      "time_ms": 57012,
+      "strain_raw": 4283959.0,
+      "load_raw": 180955,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 181,
+      "timestamp": "2026-10-11T10:38:29.618046+00:00",
+      "time_ms": 57212,
+      "strain_raw": 4282746.0,
+      "load_raw": 180822,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 182,
+      "timestamp": "2026-10-11T10:38:29.818048+00:00",
+      "time_ms": 57412,
+      "strain_raw": 4281636.0,
+      "load_raw": 180855,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 183,
+      "timestamp": "2026-10-11T10:38:30.016558+00:00",
+      "time_ms": 57612,
+      "strain_raw": 4280914.0,
+      "load_raw": 180908,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 184,
+      "timestamp": "2026-10-11T10:38:30.218215+00:00",
+      "time_ms": 57812,
+      "strain_raw": 4280533.0,
+      "load_raw": 180916,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 185,
+      "timestamp": "2026-10-11T10:38:30.418854+00:00",
+      "time_ms": 58012,
+      "strain_raw": 4279821.0,
+      "load_raw": 180917,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 186,
+      "timestamp": "2026-10-11T10:38:30.616663+00:00",
+      "time_ms": 58212,
+      "strain_raw": 4279330.0,
+      "load_raw": 180934,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 187,
+      "timestamp": "2026-10-11T10:38:30.818738+00:00",
+      "time_ms": 58412,
+      "strain_raw": 4278822.0,
+      "load_raw": 180806,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 188,
+      "timestamp": "2026-10-11T10:38:31.017410+00:00",
+      "time_ms": 58612,
+      "strain_raw": 4277769.0,
+      "load_raw": 180888,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 189,
+      "timestamp": "2026-10-11T10:38:31.216924+00:00",
+      "time_ms": 58812,
+      "strain_raw": 4277224.0,
+      "load_raw": 180828,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 190,
+      "timestamp": "2026-10-11T10:38:31.418437+00:00",
+      "time_ms": 59012,
+      "strain_raw": 4276657.0,
+      "load_raw": 180888,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 191,
+      "timestamp": "2026-10-11T10:38:31.617089+00:00",
+      "time_ms": 59212,
+      "strain_raw": 4276126.0,
+      "load_raw": 180856,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 192,
+      "timestamp": "2026-10-11T10:38:31.818243+00:00",
+      "time_ms": 59412,
+      "strain_raw": 4275425.0,
+      "load_raw": 180836,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 193,
+      "timestamp": "2026-10-11T10:38:32.016991+00:00",
+      "time_ms": 59612,
+      "strain_raw": 4275231.0,
+      "load_raw": 180932,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 194,
+      "timestamp": "2026-10-11T10:38:32.218382+00:00",
+      "time_ms": 59812,
+      "strain_raw": 4275248.0,
+      "load_raw": 180868,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 195,
+      "timestamp": "2026-10-11T10:38:32.418278+00:00",
+      "time_ms": 60012,
+      "strain_raw": 4275370.0,
+      "load_raw": 180837,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 196,
+      "timestamp": "2026-10-11T10:38:32.618140+00:00",
+      "time_ms": 60212,
+      "strain_raw": 4275622.0,
+      "load_raw": 180868,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 197,
+      "timestamp": "2026-10-11T10:38:32.816861+00:00",
+      "time_ms": 60412,
+      "strain_raw": 4275807.0,
+      "load_raw": 180913,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 198,
+      "timestamp": "2026-10-11T10:38:33.018397+00:00",
+      "time_ms": 60612,
+      "strain_raw": 4275937.0,
+      "load_raw": 180843,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 199,
+      "timestamp": "2026-10-11T10:38:33.216500+00:00",
+      "time_ms": 60812,
+      "strain_raw": 4276374.0,
+      "load_raw": 180807,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 200,
+      "timestamp": "2026-10-11T10:38:33.418353+00:00",
+      "time_ms": 61012,
+      "strain_raw": 4276504.0,
+      "load_raw": 180928,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 201,
+      "timestamp": "2026-10-11T10:38:33.618319+00:00",
+      "time_ms": 61212,
+      "strain_raw": 4276638.0,
+      "load_raw": 180899,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 202,
+      "timestamp": "2026-10-11T10:38:33.818156+00:00",
+      "time_ms": 61412,
+      "strain_raw": 4276741.0,
+      "load_raw": 180866,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 203,
+      "timestamp": "2026-10-11T10:38:34.016468+00:00",
+      "time_ms": 61612,
+      "strain_raw": 4277021.0,
+      "load_raw": 180872,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 204,
+      "timestamp": "2026-10-11T10:38:34.218197+00:00",
+      "time_ms": 61812,
+      "strain_raw": 4277049.0,
+      "load_raw": 180922,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 205,
+      "timestamp": "2026-10-11T10:38:34.416935+00:00",
+      "time_ms": 62012,
+      "strain_raw": 4276839.0,
+      "load_raw": 180926,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 206,
+      "timestamp": "2026-10-11T10:38:34.618224+00:00",
+      "time_ms": 62212,
+      "strain_raw": 4276662.0,
+      "load_raw": 180789,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 207,
+      "timestamp": "2026-10-11T10:38:34.818067+00:00",
+      "time_ms": 62412,
+      "strain_raw": 4276073.0,
+      "load_raw": 180917,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 208,
+      "timestamp": "2026-10-11T10:38:35.018166+00:00",
+      "time_ms": 62612,
+      "strain_raw": 4275616.0,
+      "load_raw": 180808,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 209,
+      "timestamp": "2026-10-11T10:38:35.217760+00:00",
+      "time_ms": 62812,
+      "strain_raw": 4275181.0,
+      "load_raw": 180822,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 210,
+      "timestamp": "2026-10-11T10:38:35.416913+00:00",
+      "time_ms": 63012,
+      "strain_raw": 4274390.0,
+      "load_raw": 180871,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 211,
+      "timestamp": "2026-10-11T10:38:35.616652+00:00",
+      "time_ms": 63212,
+      "strain_raw": 4273785.0,
+      "load_raw": 180894,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 212,
+      "timestamp": "2026-10-11T10:38:35.817459+00:00",
+      "time_ms": 63412,
+      "strain_raw": 4273243.0,
+      "load_raw": 180857,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 213,
+      "timestamp": "2026-10-11T10:38:36.018641+00:00",
+      "time_ms": 63612,
+      "strain_raw": 4272929.0,
+      "load_raw": 180881,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 214,
+      "timestamp": "2026-10-11T10:38:36.217727+00:00",
+      "time_ms": 63812,
+      "strain_raw": 4272491.0,
+      "load_raw": 180926,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 215,
+      "timestamp": "2026-10-11T10:38:36.416558+00:00",
+      "time_ms": 64012,
+      "strain_raw": 4272337.0,
+      "load_raw": 180877,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 216,
+      "timestamp": "2026-10-11T10:38:36.616799+00:00",
+      "time_ms": 64212,
+      "strain_raw": 4272309.0,
+      "load_raw": 180882,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 217,
+      "timestamp": "2026-10-11T10:38:36.817478+00:00",
+      "time_ms": 64412,
+      "strain_raw": 4272384.0,
+      "load_raw": 180867,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 218,
+      "timestamp": "2026-10-11T10:38:37.017990+00:00",
+      "time_ms": 64612,
+      "strain_raw": 4272422.0,
+      "load_raw": 180855,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 219,
+      "timestamp": "2026-10-11T10:38:37.216648+00:00",
+      "time_ms": 64812,
+      "strain_raw": 4272509.0,
+      "load_raw": 180826,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 220,
+      "timestamp": "2026-10-11T10:38:37.417812+00:00",
+      "time_ms": 65012,
+      "strain_raw": 4272743.0,
+      "load_raw": 180874,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 221,
+      "timestamp": "2026-10-11T10:38:37.616898+00:00",
+      "time_ms": 65212,
+      "strain_raw": 4273248.0,
+      "load_raw": 180892,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 222,
+      "timestamp": "2026-10-11T10:38:37.817966+00:00",
+      "time_ms": 65412,
+      "strain_raw": 4273782.0,
+      "load_raw": 180903,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 223,
+      "timestamp": "2026-10-11T10:38:38.018367+00:00",
+      "time_ms": 65612,
+      "strain_raw": 4274283.0,
+      "load_raw": 180889,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 224,
+      "timestamp": "2026-10-11T10:38:38.218371+00:00",
+      "time_ms": 65812,
+      "strain_raw": 4274662.0,
+      "load_raw": 180933,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 225,
+      "timestamp": "2026-10-11T10:38:38.418323+00:00",
+      "time_ms": 66012,
+      "strain_raw": 4275079.0,
+      "load_raw": 180801,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 226,
+      "timestamp": "2026-10-11T10:38:38.618347+00:00",
+      "time_ms": 66212,
+      "strain_raw": 4275187.0,
+      "load_raw": 180932,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 227,
+      "timestamp": "2026-10-11T10:38:38.818607+00:00",
+      "time_ms": 66412,
+      "strain_raw": 4275253.0,
+      "load_raw": 180959,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 228,
+      "timestamp": "2026-10-11T10:38:39.018245+00:00",
+      "time_ms": 66612,
+      "strain_raw": 4275362.0,
+      "load_raw": 180833,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 229,
+      "timestamp": "2026-10-11T10:38:39.216423+00:00",
+      "time_ms": 66812,
+      "strain_raw": 4275367.0,
+      "load_raw": 180913,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 230,
+      "timestamp": "2026-10-11T10:38:39.418121+00:00",
+      "time_ms": 67012,
+      "strain_raw": 4275354.0,
+      "load_raw": 180933,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 231,
+      "timestamp": "2026-10-11T10:38:39.618077+00:00",
+      "time_ms": 67212,
+      "strain_raw": 4275151.0,
+      "load_raw": 180818,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 232,
+      "timestamp": "2026-10-11T10:38:39.816688+00:00",
+      "time_ms": 67412,
+      "strain_raw": 4275063.0,
+      "load_raw": 180746,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 233,
+      "timestamp": "2026-10-11T10:38:40.016594+00:00",
+      "time_ms": 67612,
+      "strain_raw": 4274961.0,
+      "load_raw": 180879,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 234,
+      "timestamp": "2026-10-11T10:38:40.218238+00:00",
+      "time_ms": 67812,
+      "strain_raw": 4275074.0,
+      "load_raw": 180825,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 235,
+      "timestamp": "2026-10-11T10:38:40.418464+00:00",
+      "time_ms": 68012,
+      "strain_raw": 4275123.0,
+      "load_raw": 180809,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 236,
+      "timestamp": "2026-10-11T10:38:40.618517+00:00",
+      "time_ms": 68212,
+      "strain_raw": 4275264.0,
+      "load_raw": 180804,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 237,
+      "timestamp": "2026-10-11T10:38:40.817791+00:00",
+      "time_ms": 68412,
+      "strain_raw": 4275312.0,
+      "load_raw": 180841,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 238,
+      "timestamp": "2026-10-11T10:38:41.018535+00:00",
+      "time_ms": 68612,
+      "strain_raw": 4275250.0,
+      "load_raw": 180838,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 239,
+      "timestamp": "2026-10-11T10:38:41.217207+00:00",
+      "time_ms": 68812,
+      "strain_raw": 4275094.0,
+      "load_raw": 180852,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 240,
+      "timestamp": "2026-10-11T10:38:41.418307+00:00",
+      "time_ms": 69012,
+      "strain_raw": 4274777.0,
+      "load_raw": 180838,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 241,
+      "timestamp": "2026-10-11T10:38:41.616873+00:00",
+      "time_ms": 69212,
+      "strain_raw": 4274272.0,
+      "load_raw": 180812,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 242,
+      "timestamp": "2026-10-11T10:38:41.816758+00:00",
+      "time_ms": 69412,
+      "strain_raw": 4273840.0,
+      "load_raw": 180847,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 243,
+      "timestamp": "2026-10-11T10:38:42.018698+00:00",
+      "time_ms": 69612,
+      "strain_raw": 4273070.0,
+      "load_raw": 180879,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 244,
+      "timestamp": "2026-10-11T10:38:42.218237+00:00",
+      "time_ms": 69812,
+      "strain_raw": 4272689.0,
+      "load_raw": 180880,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 245,
+      "timestamp": "2026-10-11T10:38:42.417495+00:00",
+      "time_ms": 70012,
+      "strain_raw": 4272505.0,
+      "load_raw": 180826,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 246,
+      "timestamp": "2026-10-11T10:38:42.618346+00:00",
+      "time_ms": 70212,
+      "strain_raw": 4272364.0,
+      "load_raw": 180803,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 247,
+      "timestamp": "2026-10-11T10:38:42.816813+00:00",
+      "time_ms": 70412,
+      "strain_raw": 4271900.0,
+      "load_raw": 180872,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 248,
+      "timestamp": "2026-10-11T10:38:43.018437+00:00",
+      "time_ms": 70612,
+      "strain_raw": 4271457.0,
+      "load_raw": 180833,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 249,
+      "timestamp": "2026-10-11T10:38:43.217725+00:00",
+      "time_ms": 70812,
+      "strain_raw": 4270943.0,
+      "load_raw": 180857,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 250,
+      "timestamp": "2026-10-11T10:38:43.416687+00:00",
+      "time_ms": 71012,
+      "strain_raw": 4270082.0,
+      "load_raw": 180873,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 251,
+      "timestamp": "2026-10-11T10:38:43.617981+00:00",
+      "time_ms": 71212,
+      "strain_raw": 4269267.0,
+      "load_raw": 180836,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 252,
+      "timestamp": "2026-10-11T10:38:43.818219+00:00",
+      "time_ms": 71412,
+      "strain_raw": 4268731.0,
+      "load_raw": 180867,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 253,
+      "timestamp": "2026-10-11T10:38:44.018196+00:00",
+      "time_ms": 71612,
+      "strain_raw": 4268113.0,
+      "load_raw": 180837,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 254,
+      "timestamp": "2026-10-11T10:38:44.217607+00:00",
+      "time_ms": 71812,
+      "strain_raw": 4266694.0,
+      "load_raw": 180850,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 255,
+      "timestamp": "2026-10-11T10:38:44.417626+00:00",
+      "time_ms": 72012,
+      "strain_raw": 4265748.0,
+      "load_raw": 180845,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 256,
+      "timestamp": "2026-10-11T10:38:44.618225+00:00",
+      "time_ms": 72212,
+      "strain_raw": 4265103.0,
+      "load_raw": 180925,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 257,
+      "timestamp": "2026-10-11T10:38:44.818308+00:00",
+      "time_ms": 72412,
+      "strain_raw": 4264533.0,
+      "load_raw": 180833,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 258,
+      "timestamp": "2026-10-11T10:38:45.018423+00:00",
+      "time_ms": 72612,
+      "strain_raw": 4263864.0,
+      "load_raw": 180887,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 259,
+      "timestamp": "2026-10-11T10:38:45.217578+00:00",
+      "time_ms": 72812,
+      "strain_raw": 4263621.0,
+      "load_raw": 180837,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 260,
+      "timestamp": "2026-10-11T10:38:45.417909+00:00",
+      "time_ms": 73012,
+      "strain_raw": 4263225.0,
+      "load_raw": 180908,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 261,
+      "timestamp": "2026-10-11T10:38:45.616736+00:00",
+      "time_ms": 73212,
+      "strain_raw": 4262689.0,
+      "load_raw": 180844,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 262,
+      "timestamp": "2026-10-11T10:38:45.816592+00:00",
+      "time_ms": 73412,
+      "strain_raw": 4262142.0,
+      "load_raw": 180834,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 263,
+      "timestamp": "2026-10-11T10:38:46.016542+00:00",
+      "time_ms": 73612,
+      "strain_raw": 4261594.0,
+      "load_raw": 180798,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 264,
+      "timestamp": "2026-10-11T10:38:46.218044+00:00",
+      "time_ms": 73812,
+      "strain_raw": 4260853.0,
+      "load_raw": 180845,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 265,
+      "timestamp": "2026-10-11T10:38:46.417871+00:00",
+      "time_ms": 74012,
+      "strain_raw": 4259514.0,
+      "load_raw": 180902,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 266,
+      "timestamp": "2026-10-11T10:38:46.616548+00:00",
+      "time_ms": 74212,
+      "strain_raw": 4258578.0,
+      "load_raw": 180892,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 267,
+      "timestamp": "2026-10-11T10:38:46.818360+00:00",
+      "time_ms": 74412,
+      "strain_raw": 4257638.0,
+      "load_raw": 180887,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 268,
+      "timestamp": "2026-10-11T10:38:47.016563+00:00",
+      "time_ms": 74612,
+      "strain_raw": 4256725.0,
+      "load_raw": 180846,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 269,
+      "timestamp": "2026-10-11T10:38:47.218698+00:00",
+      "time_ms": 74812,
+      "strain_raw": 4255906.0,
+      "load_raw": 180866,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 270,
+      "timestamp": "2026-10-11T10:38:47.416951+00:00",
+      "time_ms": 75012,
+      "strain_raw": 4255575.0,
+      "load_raw": 180828,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 271,
+      "timestamp": "2026-10-11T10:38:47.616545+00:00",
+      "time_ms": 75212,
+      "strain_raw": 4255340.0,
+      "load_raw": 180848,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 272,
+      "timestamp": "2026-10-11T10:38:47.817765+00:00",
+      "time_ms": 75412,
+      "strain_raw": 4255418.0,
+      "load_raw": 180825,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 273,
+      "timestamp": "2026-10-11T10:38:48.018577+00:00",
+      "time_ms": 75612,
+      "strain_raw": 4255443.0,
+      "load_raw": 180840,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 274,
+      "timestamp": "2026-10-11T10:38:48.217412+00:00",
+      "time_ms": 75812,
+      "strain_raw": 4255642.0,
+      "load_raw": 180885,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 275,
+      "timestamp": "2026-10-11T10:38:48.418186+00:00",
+      "time_ms": 76012,
+      "strain_raw": 4255779.0,
+      "load_raw": 180873,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 276,
+      "timestamp": "2026-10-11T10:38:48.617453+00:00",
+      "time_ms": 76212,
+      "strain_raw": 4255955.0,
+      "load_raw": 180833,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 277,
+      "timestamp": "2026-10-11T10:38:48.817767+00:00",
+      "time_ms": 76412,
+      "strain_raw": 4256156.0,
+      "load_raw": 180845,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 278,
+      "timestamp": "2026-10-11T10:38:49.016612+00:00",
+      "time_ms": 76612,
+      "strain_raw": 4256163.0,
+      "load_raw": 180818,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 279,
+      "timestamp": "2026-10-11T10:38:49.216583+00:00",
+      "time_ms": 76812,
+      "strain_raw": 4256288.0,
+      "load_raw": 180903,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 280,
+      "timestamp": "2026-10-11T10:38:49.417883+00:00",
+      "time_ms": 77012,
+      "strain_raw": 4256505.0,
+      "load_raw": 180846,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 281,
+      "timestamp": "2026-10-11T10:38:49.617615+00:00",
+      "time_ms": 77212,
+      "strain_raw": 4256542.0,
+      "load_raw": 180902,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 282,
+      "timestamp": "2026-10-11T10:38:49.818627+00:00",
+      "time_ms": 77412,
+      "strain_raw": 4256713.0,
+      "load_raw": 180917,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 283,
+      "timestamp": "2026-10-11T10:38:50.017980+00:00",
+      "time_ms": 77612,
+      "strain_raw": 4257128.0,
+      "load_raw": 180896,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 284,
+      "timestamp": "2026-10-11T10:38:50.217702+00:00",
+      "time_ms": 77812,
+      "strain_raw": 4257762.0,
+      "load_raw": 180840,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 285,
+      "timestamp": "2026-10-11T10:38:50.417527+00:00",
+      "time_ms": 78012,
+      "strain_raw": 4258126.0,
+      "load_raw": 180904,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 286,
+      "timestamp": "2026-10-11T10:38:50.618596+00:00",
+      "time_ms": 78212,
+      "strain_raw": 4258608.0,
+      "load_raw": 180923,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 287,
+      "timestamp": "2026-10-11T10:38:50.817095+00:00",
+      "time_ms": 78412,
+      "strain_raw": 4258982.0,
+      "load_raw": 180955,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 288,
+      "timestamp": "2026-10-11T10:38:51.016373+00:00",
+      "time_ms": 78612,
+      "strain_raw": 4259169.0,
+      "load_raw": 180854,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 289,
+      "timestamp": "2026-10-11T10:38:51.217656+00:00",
+      "time_ms": 78812,
+      "strain_raw": 4259517.0,
+      "load_raw": 180881,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 290,
+      "timestamp": "2026-10-11T10:38:51.416816+00:00",
+      "time_ms": 79012,
+      "strain_raw": 4260065.0,
+      "load_raw": 180845,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 291,
+      "timestamp": "2026-10-11T10:38:51.615681+00:00",
+      "time_ms": 79212,
+      "strain_raw": 4260485.0,
+      "load_raw": 180817,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 292,
+      "timestamp": "2026-10-11T10:38:51.817250+00:00",
+      "time_ms": 79412,
+      "strain_raw": 4261148.0,
+      "load_raw": 180831,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 293,
+      "timestamp": "2026-10-11T10:38:52.015824+00:00",
+      "time_ms": 79612,
+      "strain_raw": 4261799.0,
+      "load_raw": 180867,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 294,
+      "timestamp": "2026-10-11T10:38:52.215585+00:00",
+      "time_ms": 79812,
+      "strain_raw": 4262826.0,
+      "load_raw": 180871,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 295,
+      "timestamp": "2026-10-11T10:38:52.416098+00:00",
+      "time_ms": 80012,
+      "strain_raw": 4263383.0,
+      "load_raw": 180876,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 296,
+      "timestamp": "2026-10-11T10:38:52.615762+00:00",
+      "time_ms": 80212,
+      "strain_raw": 4263618.0,
+      "load_raw": 180950,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 297,
+      "timestamp": "2026-10-11T10:38:52.815903+00:00",
+      "time_ms": 80412,
+      "strain_raw": 4263674.0,
+      "load_raw": 180841,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 298,
+      "timestamp": "2026-10-11T10:38:53.015604+00:00",
+      "time_ms": 80612,
+      "strain_raw": 4263436.0,
+      "load_raw": 180825,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 299,
+      "timestamp": "2026-10-11T10:38:53.213448+00:00",
+      "time_ms": 80812,
+      "strain_raw": 4263197.0,
+      "load_raw": 180876,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 300,
+      "timestamp": "2026-10-11T10:38:53.413052+00:00",
+      "time_ms": 81012,
+      "strain_raw": 4263070.0,
+      "load_raw": 180913,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 301,
+      "timestamp": "2026-10-11T10:38:53.614621+00:00",
+      "time_ms": 81212,
+      "strain_raw": 4262960.0,
+      "load_raw": 180837,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 302,
+      "timestamp": "2026-10-11T10:38:53.813579+00:00",
+      "time_ms": 81412,
+      "strain_raw": 4263089.0,
+      "load_raw": 180927,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 303,
+      "timestamp": "2026-10-11T10:38:54.014146+00:00",
+      "time_ms": 81612,
+      "strain_raw": 4263192.0,
+      "load_raw": 180918,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 304,
+      "timestamp": "2026-10-11T10:38:54.214300+00:00",
+      "time_ms": 81812,
+      "strain_raw": 4263272.0,
+      "load_raw": 180820,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 305,
+      "timestamp": "2026-10-11T10:38:54.413219+00:00",
+      "time_ms": 82012,
+      "strain_raw": 4263212.0,
+      "load_raw": 180827,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 306,
+      "timestamp": "2026-10-11T10:38:54.613889+00:00",
+      "time_ms": 82212,
+      "strain_raw": 4263245.0,
+      "load_raw": 180863,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 307,
+      "timestamp": "2026-10-11T10:38:54.813218+00:00",
+      "time_ms": 82412,
+      "strain_raw": 4263246.0,
+      "load_raw": 180850,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 308,
+      "timestamp": "2026-10-11T10:38:55.013140+00:00",
+      "time_ms": 82612,
+      "strain_raw": 4263469.0,
+      "load_raw": 180857,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 309,
+      "timestamp": "2026-10-11T10:38:55.212301+00:00",
+      "time_ms": 82812,
+      "strain_raw": 4264356.0,
+      "load_raw": 180876,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 310,
+      "timestamp": "2026-10-11T10:38:55.412956+00:00",
+      "time_ms": 83012,
+      "strain_raw": 4264167.0,
+      "load_raw": 180853,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 311,
+      "timestamp": "2026-10-11T10:38:55.612844+00:00",
+      "time_ms": 83212,
+      "strain_raw": 4264027.0,
+      "load_raw": 180847,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 312,
+      "timestamp": "2026-10-11T10:38:55.811947+00:00",
+      "time_ms": 83412,
+      "strain_raw": 4263735.0,
+      "load_raw": 180952,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 313,
+      "timestamp": "2026-10-11T10:38:56.012297+00:00",
+      "time_ms": 83612,
+      "strain_raw": 4263551.0,
+      "load_raw": 180881,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 314,
+      "timestamp": "2026-10-11T10:38:56.210850+00:00",
+      "time_ms": 83812,
+      "strain_raw": 4263287.0,
+      "load_raw": 180846,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 315,
+      "timestamp": "2026-10-11T10:38:56.411007+00:00",
+      "time_ms": 84012,
+      "strain_raw": 4262884.0,
+      "load_raw": 180819,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 316,
+      "timestamp": "2026-10-11T10:38:56.611716+00:00",
+      "time_ms": 84212,
+      "strain_raw": 4262141.0,
+      "load_raw": 180926,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 317,
+      "timestamp": "2026-10-11T10:38:56.810566+00:00",
+      "time_ms": 84412,
+      "strain_raw": 4261671.0,
+      "load_raw": 180938,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 318,
+      "timestamp": "2026-10-11T10:38:57.010871+00:00",
+      "time_ms": 84612,
+      "strain_raw": 4261105.0,
+      "load_raw": 180846,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 319,
+      "timestamp": "2026-10-11T10:38:57.211160+00:00",
+      "time_ms": 84812,
+      "strain_raw": 4260438.0,
+      "load_raw": 180949,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 320,
+      "timestamp": "2026-10-11T10:38:57.409729+00:00",
+      "time_ms": 85012,
+      "strain_raw": 4259673.0,
+      "load_raw": 180897,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 321,
+      "timestamp": "2026-10-11T10:38:57.610282+00:00",
+      "time_ms": 85212,
+      "strain_raw": 4259564.0,
+      "load_raw": 180825,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 322,
+      "timestamp": "2026-10-11T10:38:57.810201+00:00",
+      "time_ms": 85412,
+      "strain_raw": 4273345.0,
+      "load_raw": 180873,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 323,
+      "timestamp": "2026-10-11T10:38:58.009924+00:00",
+      "time_ms": 85612,
+      "strain_raw": 4254108.0,
+      "load_raw": 180954,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 324,
+      "timestamp": "2026-10-11T10:38:58.209692+00:00",
+      "time_ms": 85812,
+      "strain_raw": 4275971.0,
+      "load_raw": 180869,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 325,
+      "timestamp": "2026-10-11T10:38:58.409522+00:00",
+      "time_ms": 86012,
+      "strain_raw": 4279898.0,
+      "load_raw": 180895,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 326,
+      "timestamp": "2026-10-11T10:38:58.609343+00:00",
+      "time_ms": 86212,
+      "strain_raw": 4284283.0,
+      "load_raw": 180871,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 327,
+      "timestamp": "2026-10-11T10:38:58.809230+00:00",
+      "time_ms": 86412,
+      "strain_raw": 4285482.0,
+      "load_raw": 180811,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 328,
+      "timestamp": "2026-10-11T10:38:59.009067+00:00",
+      "time_ms": 86612,
+      "strain_raw": 4286674.0,
+      "load_raw": 180868,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 329,
+      "timestamp": "2026-10-11T10:38:59.285395+00:00",
+      "time_ms": 86812,
+      "strain_raw": 4286040.0,
+      "load_raw": 180823,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 330,
+      "timestamp": "2026-10-11T10:38:59.421658+00:00",
+      "time_ms": 87012,
+      "strain_raw": 4284845.0,
+      "load_raw": 180893,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 331,
+      "timestamp": "2026-10-11T10:38:59.611456+00:00",
+      "time_ms": 87212,
+      "strain_raw": 4284439.0,
+      "load_raw": 180856,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 332,
+      "timestamp": "2026-10-11T10:38:59.806582+00:00",
+      "time_ms": 87412,
+      "strain_raw": 4284369.0,
+      "load_raw": 180917,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 333,
+      "timestamp": "2026-10-11T10:39:00.008258+00:00",
+      "time_ms": 87612,
+      "strain_raw": 4281026.0,
+      "load_raw": 180865,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 334,
+      "timestamp": "2026-10-11T10:39:00.208059+00:00",
+      "time_ms": 87812,
+      "strain_raw": 4280231.0,
+      "load_raw": 180845,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 335,
+      "timestamp": "2026-10-11T10:39:00.407743+00:00",
+      "time_ms": 88012,
+      "strain_raw": 4280144.0,
+      "load_raw": 180861,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 336,
+      "timestamp": "2026-10-11T10:39:00.607020+00:00",
+      "time_ms": 88212,
+      "strain_raw": 4280381.0,
+      "load_raw": 180884,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 337,
+      "timestamp": "2026-10-11T10:39:01.007792+00:00",
+      "time_ms": 88612,
+      "strain_raw": 4279032.0,
+      "load_raw": 180797,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 338,
+      "timestamp": "2026-10-11T10:39:01.207328+00:00",
+      "time_ms": 88812,
+      "strain_raw": 4278236.0,
+      "load_raw": 180880,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 339,
+      "timestamp": "2026-10-11T10:39:01.406168+00:00",
+      "time_ms": 89012,
+      "strain_raw": 4277696.0,
+      "load_raw": 180839,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 340,
+      "timestamp": "2026-10-11T10:39:01.607067+00:00",
+      "time_ms": 89212,
+      "strain_raw": 4277176.0,
+      "load_raw": 180794,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 341,
+      "timestamp": "2026-10-11T10:39:01.807175+00:00",
+      "time_ms": 89412,
+      "strain_raw": 4277338.0,
+      "load_raw": 180951,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 342,
+      "timestamp": "2026-10-11T10:39:02.006812+00:00",
+      "time_ms": 89612,
+      "strain_raw": 4273333.0,
+      "load_raw": 180961,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 343,
+      "timestamp": "2026-10-11T10:39:02.206775+00:00",
+      "time_ms": 89812,
+      "strain_raw": 4272791.0,
+      "load_raw": 180876,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 344,
+      "timestamp": "2026-10-11T10:39:02.406478+00:00",
+      "time_ms": 90012,
+      "strain_raw": 4273889.0,
+      "load_raw": 180893,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 345,
+      "timestamp": "2026-10-11T10:39:02.604869+00:00",
+      "time_ms": 90212,
+      "strain_raw": 4274973.0,
+      "load_raw": 180817,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 346,
+      "timestamp": "2026-10-11T10:39:02.805426+00:00",
+      "time_ms": 90412,
+      "strain_raw": 4277792.0,
+      "load_raw": 180859,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 347,
+      "timestamp": "2026-10-11T10:39:03.006109+00:00",
+      "time_ms": 90612,
+      "strain_raw": 4281118.0,
+      "load_raw": 180860,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 348,
+      "timestamp": "2026-10-11T10:39:03.206441+00:00",
+      "time_ms": 90812,
+      "strain_raw": 4281465.0,
+      "load_raw": 180896,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 349,
+      "timestamp": "2026-10-11T10:39:03.405391+00:00",
+      "time_ms": 91012,
+      "strain_raw": 4282466.0,
+      "load_raw": 180804,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 350,
+      "timestamp": "2026-10-11T10:39:03.605887+00:00",
+      "time_ms": 91212,
+      "strain_raw": 4286723.0,
+      "load_raw": 180846,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 351,
+      "timestamp": "2026-10-11T10:39:03.805703+00:00",
+      "time_ms": 91412,
+      "strain_raw": 4292048.0,
+      "load_raw": 180941,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 352,
+      "timestamp": "2026-10-11T10:39:04.005801+00:00",
+      "time_ms": 91612,
+      "strain_raw": 4294302.0,
+      "load_raw": 180927,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 353,
+      "timestamp": "2026-10-11T10:39:04.204499+00:00",
+      "time_ms": 91812,
+      "strain_raw": 4297950.0,
+      "load_raw": 180959,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 354,
+      "timestamp": "2026-10-11T10:39:04.405531+00:00",
+      "time_ms": 92012,
+      "strain_raw": 4298641.0,
+      "load_raw": 180929,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 355,
+      "timestamp": "2026-10-11T10:39:04.603587+00:00",
+      "time_ms": 92212,
+      "strain_raw": 4290914.0,
+      "load_raw": 180831,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 356,
+      "timestamp": "2026-10-11T10:39:04.804979+00:00",
+      "time_ms": 92412,
+      "strain_raw": 4292847.0,
+      "load_raw": 180872,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 357,
+      "timestamp": "2026-10-11T10:39:05.004905+00:00",
+      "time_ms": 92612,
+      "strain_raw": 4301294.0,
+      "load_raw": 180929,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 358,
+      "timestamp": "2026-10-11T10:39:05.203886+00:00",
+      "time_ms": 92812,
+      "strain_raw": 4301743.0,
+      "load_raw": 180845,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 359,
+      "timestamp": "2026-10-11T10:39:05.403797+00:00",
+      "time_ms": 93012,
+      "strain_raw": 4300672.0,
+      "load_raw": 180915,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 360,
+      "timestamp": "2026-10-11T10:39:05.603627+00:00",
+      "time_ms": 93212,
+      "strain_raw": 4301690.0,
+      "load_raw": 180897,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 361,
+      "timestamp": "2026-10-11T10:39:05.804054+00:00",
+      "time_ms": 93412,
+      "strain_raw": 4302281.0,
+      "load_raw": 180908,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 362,
+      "timestamp": "2026-10-11T10:39:06.003624+00:00",
+      "time_ms": 93612,
+      "strain_raw": 4303386.0,
+      "load_raw": 180932,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 363,
+      "timestamp": "2026-10-11T10:39:06.204600+00:00",
+      "time_ms": 93812,
+      "strain_raw": 4304057.0,
+      "load_raw": 180872,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 364,
+      "timestamp": "2026-10-11T10:39:06.403559+00:00",
+      "time_ms": 94012,
+      "strain_raw": 4305015.0,
+      "load_raw": 180876,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 365,
+      "timestamp": "2026-10-11T10:39:06.603957+00:00",
+      "time_ms": 94212,
+      "strain_raw": 4305783.0,
+      "load_raw": 180871,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 366,
+      "timestamp": "2026-10-11T10:39:06.803539+00:00",
+      "time_ms": 94412,
+      "strain_raw": 4306984.0,
+      "load_raw": 180883,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 367,
+      "timestamp": "2026-10-11T10:39:07.003885+00:00",
+      "time_ms": 94612,
+      "strain_raw": 4307821.0,
+      "load_raw": 180875,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 368,
+      "timestamp": "2026-10-11T10:39:07.204001+00:00",
+      "time_ms": 94812,
+      "strain_raw": 4308635.0,
+      "load_raw": 180842,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 369,
+      "timestamp": "2026-10-11T10:39:07.403648+00:00",
+      "time_ms": 95012,
+      "strain_raw": 4309843.0,
+      "load_raw": 180881,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 370,
+      "timestamp": "2026-10-11T10:39:07.603583+00:00",
+      "time_ms": 95212,
+      "strain_raw": 4311467.0,
+      "load_raw": 180898,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 371,
+      "timestamp": "2026-10-11T10:39:07.803575+00:00",
+      "time_ms": 95412,
+      "strain_raw": 4312200.0,
+      "load_raw": 180896,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 372,
+      "timestamp": "2026-10-11T10:39:08.003292+00:00",
+      "time_ms": 95612,
+      "strain_raw": 4312658.0,
+      "load_raw": 180937,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 373,
+      "timestamp": "2026-10-11T10:39:08.203319+00:00",
+      "time_ms": 95812,
+      "strain_raw": 4313239.0,
+      "load_raw": 180857,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 374,
+      "timestamp": "2026-10-11T10:39:08.402994+00:00",
+      "time_ms": 96012,
+      "strain_raw": 4313476.0,
+      "load_raw": 180797,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 375,
+      "timestamp": "2026-10-11T10:39:08.602929+00:00",
+      "time_ms": 96212,
+      "strain_raw": 4312745.0,
+      "load_raw": 180947,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 376,
+      "timestamp": "2026-10-11T10:39:08.802018+00:00",
+      "time_ms": 96412,
+      "strain_raw": 4310189.0,
+      "load_raw": 180926,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 377,
+      "timestamp": "2026-10-11T10:39:09.001923+00:00",
+      "time_ms": 96612,
+      "strain_raw": 4307492.0,
+      "load_raw": 180955,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 378,
+      "timestamp": "2026-10-11T10:39:09.201899+00:00",
+      "time_ms": 96812,
+      "strain_raw": 4311607.0,
+      "load_raw": 180849,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 379,
+      "timestamp": "2026-10-11T10:39:09.400884+00:00",
+      "time_ms": 97012,
+      "strain_raw": 4312499.0,
+      "load_raw": 180833,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 380,
+      "timestamp": "2026-10-11T10:39:09.602547+00:00",
+      "time_ms": 97212,
+      "strain_raw": 4313245.0,
+      "load_raw": 180849,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 381,
+      "timestamp": "2026-10-11T10:39:09.802491+00:00",
+      "time_ms": 97412,
+      "strain_raw": 4315241.0,
+      "load_raw": 180882,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 382,
+      "timestamp": "2026-10-11T10:39:10.002609+00:00",
+      "time_ms": 97612,
+      "strain_raw": 4314234.0,
+      "load_raw": 180925,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 383,
+      "timestamp": "2026-10-11T10:39:10.202459+00:00",
+      "time_ms": 97812,
+      "strain_raw": 4314147.0,
+      "load_raw": 180955,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 384,
+      "timestamp": "2026-10-11T10:39:10.402369+00:00",
+      "time_ms": 98012,
+      "strain_raw": 4314737.0,
+      "load_raw": 180916,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 385,
+      "timestamp": "2026-10-11T10:39:10.602486+00:00",
+      "time_ms": 98212,
+      "strain_raw": 4313169.0,
+      "load_raw": 180915,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 386,
+      "timestamp": "2026-10-11T10:39:10.802195+00:00",
+      "time_ms": 98412,
+      "strain_raw": 4311714.0,
+      "load_raw": 180964,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 387,
+      "timestamp": "2026-10-11T10:39:11.002267+00:00",
+      "time_ms": 98612,
+      "strain_raw": 4311533.0,
+      "load_raw": 180858,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 388,
+      "timestamp": "2026-10-11T10:39:11.202023+00:00",
+      "time_ms": 98812,
+      "strain_raw": 4310779.0,
+      "load_raw": 180832,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 389,
+      "timestamp": "2026-10-11T10:39:11.401928+00:00",
+      "time_ms": 99012,
+      "strain_raw": 4310844.0,
+      "load_raw": 180951,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 390,
+      "timestamp": "2026-10-11T10:39:11.601877+00:00",
+      "time_ms": 99212,
+      "strain_raw": 4310985.0,
+      "load_raw": 180883,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 391,
+      "timestamp": "2026-10-11T10:39:11.801748+00:00",
+      "time_ms": 99412,
+      "strain_raw": 4310920.0,
+      "load_raw": 180954,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 392,
+      "timestamp": "2026-10-11T10:39:11.999941+00:00",
+      "time_ms": 99612,
+      "strain_raw": 4311006.0,
+      "load_raw": 180980,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 393,
+      "timestamp": "2026-10-11T10:39:12.201642+00:00",
+      "time_ms": 99812,
+      "strain_raw": 4311196.0,
+      "load_raw": 180852,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 394,
+      "timestamp": "2026-10-11T10:39:12.401919+00:00",
+      "time_ms": 100012,
+      "strain_raw": 4311790.0,
+      "load_raw": 180895,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 395,
+      "timestamp": "2026-10-11T10:39:12.601420+00:00",
+      "time_ms": 100212,
+      "strain_raw": 4311624.0,
+      "load_raw": 180909,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 396,
+      "timestamp": "2026-10-11T10:39:12.801424+00:00",
+      "time_ms": 100412,
+      "strain_raw": 4311647.0,
+      "load_raw": 180913,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 397,
+      "timestamp": "2026-10-11T10:39:13.001293+00:00",
+      "time_ms": 100612,
+      "strain_raw": 4311874.0,
+      "load_raw": 180927,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 398,
+      "timestamp": "2026-10-11T10:39:13.201292+00:00",
+      "time_ms": 100812,
+      "strain_raw": 4312322.0,
+      "load_raw": 180893,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 399,
+      "timestamp": "2026-10-11T10:39:13.400615+00:00",
+      "time_ms": 101012,
+      "strain_raw": 4312815.0,
+      "load_raw": 180894,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 400,
+      "timestamp": "2026-10-11T10:39:13.601152+00:00",
+      "time_ms": 101212,
+      "strain_raw": 4313242.0,
+      "load_raw": 180940,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 401,
+      "timestamp": "2026-10-11T10:39:13.800995+00:00",
+      "time_ms": 101412,
+      "strain_raw": 4313630.0,
+      "load_raw": 180967,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 402,
+      "timestamp": "2026-10-11T10:39:14.000469+00:00",
+      "time_ms": 101612,
+      "strain_raw": 4313955.0,
+      "load_raw": 180939,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 403,
+      "timestamp": "2026-10-11T10:39:14.199891+00:00",
+      "time_ms": 101812,
+      "strain_raw": 4314430.0,
+      "load_raw": 180896,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 404,
+      "timestamp": "2026-10-11T10:39:14.401123+00:00",
+      "time_ms": 102012,
+      "strain_raw": 4314667.0,
+      "load_raw": 180854,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 405,
+      "timestamp": "2026-10-11T10:39:14.600697+00:00",
+      "time_ms": 102212,
+      "strain_raw": 4314847.0,
+      "load_raw": 180912,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 406,
+      "timestamp": "2026-10-11T10:39:14.800715+00:00",
+      "time_ms": 102412,
+      "strain_raw": 4314572.0,
+      "load_raw": 181003,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 407,
+      "timestamp": "2026-10-11T10:39:15.000720+00:00",
+      "time_ms": 102612,
+      "strain_raw": 4314786.0,
+      "load_raw": 180933,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 408,
+      "timestamp": "2026-10-11T10:39:15.200541+00:00",
+      "time_ms": 102812,
+      "strain_raw": 4314947.0,
+      "load_raw": 180897,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 409,
+      "timestamp": "2026-10-11T10:39:15.400237+00:00",
+      "time_ms": 103012,
+      "strain_raw": 4315387.0,
+      "load_raw": 180986,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 410,
+      "timestamp": "2026-10-11T10:39:15.600350+00:00",
+      "time_ms": 103212,
+      "strain_raw": 4315525.0,
+      "load_raw": 180961,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 411,
+      "timestamp": "2026-10-11T10:39:15.800316+00:00",
+      "time_ms": 103412,
+      "strain_raw": 4311719.0,
+      "load_raw": 180953,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 412,
+      "timestamp": "2026-10-11T10:39:16.000326+00:00",
+      "time_ms": 103612,
+      "strain_raw": 4315957.0,
+      "load_raw": 180879,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 413,
+      "timestamp": "2026-10-11T10:39:16.200258+00:00",
+      "time_ms": 103812,
+      "strain_raw": 4314948.0,
+      "load_raw": 180903,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 414,
+      "timestamp": "2026-10-11T10:39:16.400273+00:00",
+      "time_ms": 104012,
+      "strain_raw": 4314259.0,
+      "load_raw": 180941,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 415,
+      "timestamp": "2026-10-11T10:39:16.600261+00:00",
+      "time_ms": 104212,
+      "strain_raw": 4313366.0,
+      "load_raw": 180873,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 416,
+      "timestamp": "2026-10-11T10:39:16.798986+00:00",
+      "time_ms": 104412,
+      "strain_raw": 4312508.0,
+      "load_raw": 180915,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 417,
+      "timestamp": "2026-10-11T10:39:17.000312+00:00",
+      "time_ms": 104612,
+      "strain_raw": 4311204.0,
+      "load_raw": 180954,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 418,
+      "timestamp": "2026-10-11T10:39:17.200025+00:00",
+      "time_ms": 104812,
+      "strain_raw": 4311630.0,
+      "load_raw": 180847,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 419,
+      "timestamp": "2026-10-11T10:39:17.400020+00:00",
+      "time_ms": 105012,
+      "strain_raw": 4304696.0,
+      "load_raw": 181008,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 420,
+      "timestamp": "2026-10-11T10:39:17.599820+00:00",
+      "time_ms": 105212,
+      "strain_raw": 4299487.0,
+      "load_raw": 180899,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 421,
+      "timestamp": "2026-10-11T10:39:17.798165+00:00",
+      "time_ms": 105412,
+      "strain_raw": 4304092.0,
+      "load_raw": 180898,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 422,
+      "timestamp": "2026-10-11T10:39:17.999681+00:00",
+      "time_ms": 105612,
+      "strain_raw": 4304823.0,
+      "load_raw": 180933,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 423,
+      "timestamp": "2026-10-11T10:39:18.199697+00:00",
+      "time_ms": 105812,
+      "strain_raw": 4304328.0,
+      "load_raw": 180903,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 424,
+      "timestamp": "2026-10-11T10:39:18.399707+00:00",
+      "time_ms": 106012,
+      "strain_raw": 4298783.0,
+      "load_raw": 180981,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 425,
+      "timestamp": "2026-10-11T10:39:18.599889+00:00",
+      "time_ms": 106212,
+      "strain_raw": 4314809.0,
+      "load_raw": 180970,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 426,
+      "timestamp": "2026-10-11T10:39:18.798421+00:00",
+      "time_ms": 106412,
+      "strain_raw": 4321629.0,
+      "load_raw": 181008,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 427,
+      "timestamp": "2026-10-11T10:39:18.999587+00:00",
+      "time_ms": 106612,
+      "strain_raw": 4321622.0,
+      "load_raw": 181073,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 428,
+      "timestamp": "2026-10-11T10:39:19.199434+00:00",
+      "time_ms": 106812,
+      "strain_raw": 4322130.0,
+      "load_raw": 180914,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 429,
+      "timestamp": "2026-10-11T10:39:19.399597+00:00",
+      "time_ms": 107012,
+      "strain_raw": 4323023.0,
+      "load_raw": 180935,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 430,
+      "timestamp": "2026-10-11T10:39:19.598557+00:00",
+      "time_ms": 107212,
+      "strain_raw": 4321708.0,
+      "load_raw": 180946,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 431,
+      "timestamp": "2026-10-11T10:39:19.799262+00:00",
+      "time_ms": 107412,
+      "strain_raw": 4316741.0,
+      "load_raw": 180907,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 432,
+      "timestamp": "2026-10-11T10:39:19.999479+00:00",
+      "time_ms": 107612,
+      "strain_raw": 4304598.0,
+      "load_raw": 180964,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 433,
+      "timestamp": "2026-10-11T10:39:20.199233+00:00",
+      "time_ms": 107812,
+      "strain_raw": 4304530.0,
+      "load_raw": 180911,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 434,
+      "timestamp": "2026-10-11T10:39:20.399367+00:00",
+      "time_ms": 108012,
+      "strain_raw": 4305618.0,
+      "load_raw": 180960,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 435,
+      "timestamp": "2026-10-11T10:39:20.599212+00:00",
+      "time_ms": 108212,
+      "strain_raw": 4309514.0,
+      "load_raw": 180943,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 436,
+      "timestamp": "2026-10-11T10:39:20.799096+00:00",
+      "time_ms": 108412,
+      "strain_raw": 4315234.0,
+      "load_raw": 180925,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 437,
+      "timestamp": "2026-10-11T10:39:20.999303+00:00",
+      "time_ms": 108612,
+      "strain_raw": 4317061.0,
+      "load_raw": 180899,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 438,
+      "timestamp": "2026-10-11T10:39:21.198613+00:00",
+      "time_ms": 108812,
+      "strain_raw": 4318231.0,
+      "load_raw": 180933,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 439,
+      "timestamp": "2026-10-11T10:39:21.399210+00:00",
+      "time_ms": 109012,
+      "strain_raw": 4319113.0,
+      "load_raw": 180934,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 440,
+      "timestamp": "2026-10-11T10:39:21.598989+00:00",
+      "time_ms": 109212,
+      "strain_raw": 4319067.0,
+      "load_raw": 180957,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 441,
+      "timestamp": "2026-10-11T10:39:21.799015+00:00",
+      "time_ms": 109412,
+      "strain_raw": 4319401.0,
+      "load_raw": 180971,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 442,
+      "timestamp": "2026-10-11T10:39:21.999008+00:00",
+      "time_ms": 109612,
+      "strain_raw": 4318685.0,
+      "load_raw": 180912,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 443,
+      "timestamp": "2026-10-11T10:39:22.199110+00:00",
+      "time_ms": 109812,
+      "strain_raw": 4318877.0,
+      "load_raw": 180934,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 444,
+      "timestamp": "2026-10-11T10:39:22.399023+00:00",
+      "time_ms": 110012,
+      "strain_raw": 4318651.0,
+      "load_raw": 180886,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 445,
+      "timestamp": "2026-10-11T10:39:22.597709+00:00",
+      "time_ms": 110212,
+      "strain_raw": 4318198.0,
+      "load_raw": 180979,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 446,
+      "timestamp": "2026-10-11T10:39:22.798838+00:00",
+      "time_ms": 110412,
+      "strain_raw": 4317307.0,
+      "load_raw": 181013,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 447,
+      "timestamp": "2026-10-11T10:39:22.998831+00:00",
+      "time_ms": 110612,
+      "strain_raw": 4316200.0,
+      "load_raw": 180918,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 448,
+      "timestamp": "2026-10-11T10:39:23.198595+00:00",
+      "time_ms": 110812,
+      "strain_raw": 4315127.0,
+      "load_raw": 180969,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 449,
+      "timestamp": "2026-10-11T10:39:23.397620+00:00",
+      "time_ms": 111012,
+      "strain_raw": 4315828.0,
+      "load_raw": 180959,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 450,
+      "timestamp": "2026-10-11T10:39:23.599208+00:00",
+      "time_ms": 111212,
+      "strain_raw": 4314950.0,
+      "load_raw": 180994,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 451,
+      "timestamp": "2026-10-11T10:39:23.798808+00:00",
+      "time_ms": 111412,
+      "strain_raw": 4313868.0,
+      "load_raw": 180937,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 452,
+      "timestamp": "2026-10-11T10:39:23.998551+00:00",
+      "time_ms": 111612,
+      "strain_raw": 4313692.0,
+      "load_raw": 180944,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 453,
+      "timestamp": "2026-10-11T10:39:24.196879+00:00",
+      "time_ms": 111812,
+      "strain_raw": 4313607.0,
+      "load_raw": 180996,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 454,
+      "timestamp": "2026-10-11T10:39:24.399008+00:00",
+      "time_ms": 112012,
+      "strain_raw": 4290766.0,
+      "load_raw": 179015,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 455,
+      "timestamp": "2026-10-11T10:39:24.598315+00:00",
+      "time_ms": 112212,
+      "strain_raw": 4287103.0,
+      "load_raw": 167257,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 456,
+      "timestamp": "2026-10-11T10:39:24.798480+00:00",
+      "time_ms": 112412,
+      "strain_raw": 4300700.0,
+      "load_raw": 149405,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 457,
+      "timestamp": "2026-10-11T10:39:24.998341+00:00",
+      "time_ms": 112612,
+      "strain_raw": 4286119.0,
+      "load_raw": 174655,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 458,
+      "timestamp": "2026-10-11T10:39:25.198356+00:00",
+      "time_ms": 112812,
+      "strain_raw": 4287941.0,
+      "load_raw": 180974,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 459,
+      "timestamp": "2026-10-11T10:39:25.398417+00:00",
+      "time_ms": 113012,
+      "strain_raw": 4281897.0,
+      "load_raw": 180845,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 460,
+      "timestamp": "2026-10-11T10:39:25.597850+00:00",
+      "time_ms": 113212,
+      "strain_raw": 4308093.0,
+      "load_raw": 180930,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 461,
+      "timestamp": "2026-10-11T10:39:25.798470+00:00",
+      "time_ms": 113412,
+      "strain_raw": 4323942.0,
+      "load_raw": 180890,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 462,
+      "timestamp": "2026-10-11T10:39:25.998238+00:00",
+      "time_ms": 113612,
+      "strain_raw": 4311247.0,
+      "load_raw": 181006,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 463,
+      "timestamp": "2026-10-11T10:39:26.198480+00:00",
+      "time_ms": 113812,
+      "strain_raw": 4275322.0,
+      "load_raw": 180779,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 464,
+      "timestamp": "2026-10-11T10:39:26.398879+00:00",
+      "time_ms": 114012,
+      "strain_raw": 4285008.0,
+      "load_raw": 180944,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 465,
+      "timestamp": "2026-10-11T10:39:26.598480+00:00",
+      "time_ms": 114212,
+      "strain_raw": 4305969.0,
+      "load_raw": 180854,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 466,
+      "timestamp": "2026-10-11T10:39:26.798450+00:00",
+      "time_ms": 114412,
+      "strain_raw": 4318591.0,
+      "load_raw": 180875,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 467,
+      "timestamp": "2026-10-11T10:39:26.997568+00:00",
+      "time_ms": 114612,
+      "strain_raw": 4303933.0,
+      "load_raw": 179658,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 468,
+      "timestamp": "2026-10-11T10:39:27.197086+00:00",
+      "time_ms": 114812,
+      "strain_raw": 4301583.0,
+      "load_raw": 177505,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 469,
+      "timestamp": "2026-10-11T10:39:27.398327+00:00",
+      "time_ms": 115012,
+      "strain_raw": 4305524.0,
+      "load_raw": 180883,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 470,
+      "timestamp": "2026-10-11T10:39:27.597784+00:00",
+      "time_ms": 115212,
+      "strain_raw": 4306649.0,
+      "load_raw": 180968,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 471,
+      "timestamp": "2026-10-11T10:39:27.797872+00:00",
+      "time_ms": 115412,
+      "strain_raw": 4308547.0,
+      "load_raw": 177609,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 472,
+      "timestamp": "2026-10-11T10:39:27.997327+00:00",
+      "time_ms": 115612,
+      "strain_raw": 4311095.0,
+      "load_raw": 176333,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 473,
+      "timestamp": "2026-10-11T10:39:28.196829+00:00",
+      "time_ms": 115812,
+      "strain_raw": 4315284.0,
+      "load_raw": 169519,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 474,
+      "timestamp": "2026-10-11T10:39:28.397961+00:00",
+      "time_ms": 116012,
+      "strain_raw": 4322380.0,
+      "load_raw": 172892,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 475,
+      "timestamp": "2026-10-11T10:39:28.597950+00:00",
+      "time_ms": 116212,
+      "strain_raw": 4326192.0,
+      "load_raw": 180164,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 476,
+      "timestamp": "2026-10-11T10:39:28.797141+00:00",
+      "time_ms": 116412,
+      "strain_raw": 4322623.0,
+      "load_raw": 180904,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 477,
+      "timestamp": "2026-10-11T10:39:28.997077+00:00",
+      "time_ms": 116612,
+      "strain_raw": 4308568.0,
+      "load_raw": 180943,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 478,
+      "timestamp": "2026-10-11T10:39:29.197236+00:00",
+      "time_ms": 116812,
+      "strain_raw": 4295002.0,
+      "load_raw": 180973,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 479,
+      "timestamp": "2026-10-11T10:39:29.397947+00:00",
+      "time_ms": 117012,
+      "strain_raw": 4288844.0,
+      "load_raw": 180923,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 480,
+      "timestamp": "2026-10-11T10:39:29.597040+00:00",
+      "time_ms": 117212,
+      "strain_raw": 4300443.0,
+      "load_raw": 180984,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 481,
+      "timestamp": "2026-10-11T10:39:29.797152+00:00",
+      "time_ms": 117412,
+      "strain_raw": 4306838.0,
+      "load_raw": 180918,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 482,
+      "timestamp": "2026-10-11T10:39:29.996907+00:00",
+      "time_ms": 117612,
+      "strain_raw": 4303386.0,
+      "load_raw": 180914,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 483,
+      "timestamp": "2026-10-11T10:39:30.197664+00:00",
+      "time_ms": 117812,
+      "strain_raw": 4297215.0,
+      "load_raw": 180908,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 484,
+      "timestamp": "2026-10-11T10:39:30.398150+00:00",
+      "time_ms": 118012,
+      "strain_raw": 4304240.0,
+      "load_raw": 180938,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 485,
+      "timestamp": "2026-10-11T10:39:30.596483+00:00",
+      "time_ms": 118212,
+      "strain_raw": 4305105.0,
+      "load_raw": 180974,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 486,
+      "timestamp": "2026-10-11T10:39:30.797047+00:00",
+      "time_ms": 118412,
+      "strain_raw": 4322234.0,
+      "load_raw": 180912,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 487,
+      "timestamp": "2026-10-11T10:39:30.997436+00:00",
+      "time_ms": 118612,
+      "strain_raw": 4334698.0,
+      "load_raw": 180917,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 488,
+      "timestamp": "2026-10-11T10:39:31.197527+00:00",
+      "time_ms": 118812,
+      "strain_raw": 4345939.0,
+      "load_raw": 180925,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 489,
+      "timestamp": "2026-10-11T10:39:31.397099+00:00",
+      "time_ms": 119012,
+      "strain_raw": 4343511.0,
+      "load_raw": 180971,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 490,
+      "timestamp": "2026-10-11T10:39:31.597927+00:00",
+      "time_ms": 119212,
+      "strain_raw": 4333153.0,
+      "load_raw": 180920,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 491,
+      "timestamp": "2026-10-11T10:39:31.796917+00:00",
+      "time_ms": 119412,
+      "strain_raw": 4342881.0,
+      "load_raw": 180926,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 492,
+      "timestamp": "2026-10-11T10:39:31.997325+00:00",
+      "time_ms": 119612,
+      "strain_raw": 4334219.0,
+      "load_raw": 180956,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 493,
+      "timestamp": "2026-10-11T10:39:32.196195+00:00",
+      "time_ms": 119812,
+      "strain_raw": 4335157.0,
+      "load_raw": 180956,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 494,
+      "timestamp": "2026-10-11T10:39:32.396630+00:00",
+      "time_ms": 120012,
+      "strain_raw": 4337331.0,
+      "load_raw": 180964,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 495,
+      "timestamp": "2026-10-11T10:39:32.596842+00:00",
+      "time_ms": 120212,
+      "strain_raw": 4344082.0,
+      "load_raw": 180997,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 496,
+      "timestamp": "2026-10-11T10:39:32.795836+00:00",
+      "time_ms": 120412,
+      "strain_raw": 4345211.0,
+      "load_raw": 180932,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 497,
+      "timestamp": "2026-10-11T10:39:32.997405+00:00",
+      "time_ms": 120612,
+      "strain_raw": 4348215.0,
+      "load_raw": 180940,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 498,
+      "timestamp": "2026-10-11T10:39:33.196470+00:00",
+      "time_ms": 120812,
+      "strain_raw": 4349948.0,
+      "load_raw": 180897,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 499,
+      "timestamp": "2026-10-11T10:39:33.396112+00:00",
+      "time_ms": 121012,
+      "strain_raw": 4350319.0,
+      "load_raw": 180929,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 500,
+      "timestamp": "2026-10-11T10:39:33.597480+00:00",
+      "time_ms": 121212,
+      "strain_raw": 4347689.0,
+      "load_raw": 180956,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 501,
+      "timestamp": "2026-10-11T10:39:33.796505+00:00",
+      "time_ms": 121412,
+      "strain_raw": 4350020.0,
+      "load_raw": 180869,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 502,
+      "timestamp": "2026-10-11T10:39:33.997837+00:00",
+      "time_ms": 121612,
+      "strain_raw": 4355078.0,
+      "load_raw": 180928,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 503,
+      "timestamp": "2026-10-11T10:39:34.197275+00:00",
+      "time_ms": 121812,
+      "strain_raw": 4357264.0,
+      "load_raw": 180930,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 504,
+      "timestamp": "2026-10-11T10:39:34.397596+00:00",
+      "time_ms": 122012,
+      "strain_raw": 4359816.0,
+      "load_raw": 180978,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 505,
+      "timestamp": "2026-10-11T10:39:34.597349+00:00",
+      "time_ms": 122212,
+      "strain_raw": 4363126.0,
+      "load_raw": 180997,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 506,
+      "timestamp": "2026-10-11T10:39:34.797325+00:00",
+      "time_ms": 122412,
+      "strain_raw": 4363783.0,
+      "load_raw": 181037,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 507,
+      "timestamp": "2026-10-11T10:39:34.997255+00:00",
+      "time_ms": 122612,
+      "strain_raw": 4355843.0,
+      "load_raw": 180976,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 508,
+      "timestamp": "2026-10-11T10:39:35.195986+00:00",
+      "time_ms": 122812,
+      "strain_raw": 4366870.0,
+      "load_raw": 180899,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 509,
+      "timestamp": "2026-10-11T10:39:35.397492+00:00",
+      "time_ms": 123012,
+      "strain_raw": 4366163.0,
+      "load_raw": 180939,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 510,
+      "timestamp": "2026-10-11T10:39:35.597212+00:00",
+      "time_ms": 123212,
+      "strain_raw": 4366614.0,
+      "load_raw": 180927,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 511,
+      "timestamp": "2026-10-11T10:39:35.796345+00:00",
+      "time_ms": 123412,
+      "strain_raw": 4360584.0,
+      "load_raw": 180974,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 512,
+      "timestamp": "2026-10-11T10:39:35.995635+00:00",
+      "time_ms": 123612,
+      "strain_raw": 4350382.0,
+      "load_raw": 180972,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 513,
+      "timestamp": "2026-10-11T10:39:36.195617+00:00",
+      "time_ms": 123812,
+      "strain_raw": 4356584.0,
+      "load_raw": 180943,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 514,
+      "timestamp": "2026-10-11T10:39:36.395960+00:00",
+      "time_ms": 124012,
+      "strain_raw": 4357223.0,
+      "load_raw": 180950,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 515,
+      "timestamp": "2026-10-11T10:39:36.596971+00:00",
+      "time_ms": 124212,
+      "strain_raw": 4352379.0,
+      "load_raw": 181008,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 516,
+      "timestamp": "2026-10-11T10:39:36.796918+00:00",
+      "time_ms": 124412,
+      "strain_raw": 4360350.0,
+      "load_raw": 180942,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 517,
+      "timestamp": "2026-10-11T10:39:36.996199+00:00",
+      "time_ms": 124612,
+      "strain_raw": 4362531.0,
+      "load_raw": 180998,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 518,
+      "timestamp": "2026-10-11T10:39:37.195502+00:00",
+      "time_ms": 124812,
+      "strain_raw": 4363696.0,
+      "load_raw": 180983,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 519,
+      "timestamp": "2026-10-11T10:39:37.396985+00:00",
+      "time_ms": 125012,
+      "strain_raw": 4365300.0,
+      "load_raw": 180906,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 520,
+      "timestamp": "2026-10-11T10:39:37.596229+00:00",
+      "time_ms": 125212,
+      "strain_raw": 4365585.0,
+      "load_raw": 180978,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 521,
+      "timestamp": "2026-10-11T10:39:37.795411+00:00",
+      "time_ms": 125412,
+      "strain_raw": 4365685.0,
+      "load_raw": 180962,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 522,
+      "timestamp": "2026-10-11T10:39:37.996153+00:00",
+      "time_ms": 125612,
+      "strain_raw": 4365486.0,
+      "load_raw": 180963,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 523,
+      "timestamp": "2026-10-11T10:39:38.197028+00:00",
+      "time_ms": 125812,
+      "strain_raw": 4365628.0,
+      "load_raw": 180900,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 524,
+      "timestamp": "2026-10-11T10:39:38.395812+00:00",
+      "time_ms": 126012,
+      "strain_raw": 4366204.0,
+      "load_raw": 180974,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    },
+    {
+      "seq": 525,
+      "timestamp": "2026-10-11T10:39:38.595543+00:00",
+      "time_ms": 126212,
+      "strain_raw": 4366460.0,
+      "load_raw": 181009,
+      "sensor_status": {
+        "load": "ok",
+        "strain": "ok",
+        "ultrasonic": "disabled",
+        "vibration": "ok"
+      }
+    }
+  ]
+}

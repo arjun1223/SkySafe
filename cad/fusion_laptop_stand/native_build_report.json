@@ -1,0 +1,230 @@
+{
+  "status": "PASS - native history and geometry; physical validation pending",
+  "parts": [
+    {
+      "part": "laptop_foot_stand",
+      "dimensions_mm": [
+        130.0,
+        42.0,
+        110.0
+      ],
+      "volume_mm3": 96467.56,
+      "sketches": 5,
+      "native_solids": 1,
+      "mesh_bodies": 0
+    }
+  ],
+  "feature_checks": [
+    {
+      "component": "01 Laptop foot stand - PRINT ONE as exported",
+      "feature": "Table deck, back wall, gusset and thin laptop foot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Laptop foot stand - PRINT ONE as exported",
+      "feature": "Support-free M3 bore (3, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Laptop foot stand - PRINT ONE as exported",
+      "feature": "Support-free M3 bore (3, 43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Laptop foot stand - PRINT ONE as exported",
+      "feature": "Support-free M3 bore (20, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Laptop foot stand - PRINT ONE as exported",
+      "feature": "Support-free M3 bore (20, 43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Existing clamp cap - REUSE; do not print again",
+      "feature": "Original cap",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Existing clamp cap - REUSE; do not print again",
+      "feature": "Original cap clearance (3, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Existing clamp cap - REUSE; do not print again",
+      "feature": "Original cap clearance (3, 43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Existing clamp cap - REUSE; do not print again",
+      "feature": "Original cap clearance (20, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Existing clamp cap - REUSE; do not print again",
+      "feature": "Original cap clearance (20, 43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Laptop foot stand - PRINT ONE as exported",
+      "feature": "Table deck, back wall, gusset and thin laptop foot",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Laptop foot stand - PRINT ONE as exported",
+      "feature": "Support-free M3 bore (3, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Laptop foot stand - PRINT ONE as exported",
+      "feature": "Support-free M3 bore (3, 43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Laptop foot stand - PRINT ONE as exported",
+      "feature": "Support-free M3 bore (20, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "01 Laptop foot stand - PRINT ONE as exported",
+      "feature": "Support-free M3 bore (20, 43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Existing clamp cap - REUSE; do not print again",
+      "feature": "Original cap",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Existing clamp cap - REUSE; do not print again",
+      "feature": "Original cap clearance (3, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Existing clamp cap - REUSE; do not print again",
+      "feature": "Original cap clearance (3, 43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Existing clamp cap - REUSE; do not print again",
+      "feature": "Original cap clearance (20, -43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "02 Existing clamp cap - REUSE; do not print again",
+      "feature": "Original cap clearance (20, 43)",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - existing wing root and bending span",
+      "feature": "Existing 24 x 72 x 10 mm root envelope",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - existing wing root and bending span",
+      "feature": "Existing skewer exit -18",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - existing wing root and bending span",
+      "feature": "Existing skewer exit 18",
+      "healthy": true,
+      "message": ""
+    },
+    {
+      "component": "REFERENCE ONLY - existing wing root and bending span",
+      "feature": "Unloaded wing center envelope",
+      "healthy": true,
+      "message": ""
+    }
+  ],
+  "exports": {
+    "assembly_f3d": "cad/fusion_laptop_stand/SkySafe_Laptop_Stand.f3d",
+    "stl_parts": 1,
+    "step_parts": 1
+  },
+  "revision": "laptop-foot-m3-v1",
+  "new_prints": 1,
+  "assembled_dimensions_mm": [
+    130,
+    110,
+    42
+  ],
+  "deck_top_mm": 41,
+  "foot_thickness_mm": 3,
+  "bolt_centers_assembly_mm": [
+    [
+      3,
+      -43
+    ],
+    [
+      3,
+      43
+    ],
+    [
+      20,
+      -43
+    ],
+    [
+      20,
+      43
+    ]
+  ],
+  "bolt_hole_inscribed_diameter_mm": 3.4,
+  "print_to_assembly": "X=x, Y=55-z, Z=y (millimeters)",
+  "fasteners": "Four M3 x 25-30 mm; heads below deck, washers and nuts above reused cap",
+  "reused_cap": "../fusion_14inch/root_cap.f3d",
+  "limitations": [
+    "No physical load rating or printed fit/strength validation",
+    "Only actual laptop-to-tab contact contributes anchoring force",
+    "No assumption that the full laptop weight loads the tab",
+    "Layout is fixed in sketches; reference wing is not printable wing geometry"
+  ],
+  "phase": "Unloaded wing center envelope",
+  "assembled_interference": {
+    "passed": true,
+    "overlap_volumes_mm3": []
+  },
+  "source_sha256": "a7aa49d28f74f042356c5662b2f18f1e661f910a3ef0b7f9a27c0ef6e9b53baf",
+  "helper_source_sha256": "8accce186577d8e3df5f728b0725c83ef0be89ef376bfb3d286701815b7688a3",
+  "archive_readback": {
+    "passed": true,
+    "timeline_items": 44,
+    "components": [
+      {
+        "part": "laptop_foot_stand",
+        "sketches": 5,
+        "solids": 1,
+        "meshes": 0
+      },
+      {
+        "part": "REUSE_root_cap",
+        "sketches": 5,
+        "solids": 1,
+        "meshes": 0
+      }
+    ]
+  }
+}

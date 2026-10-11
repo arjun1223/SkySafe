@@ -1,0 +1,33 @@
+{
+  "simulation": false,
+  "user_action": "Tilted blue IMU board back and forth",
+  "peak_sample": {
+    "timestamp": "2026-10-11T06:28:03.552713+00:00",
+    "time_ms": 196613,
+    "accel_x": 7.100005,
+    "accel_y": -7.463924,
+    "accel_z": -0.476446,
+    "accel_rms": 6.739327,
+    "vibration_peak": 9.970265,
+    "sensor_status": {
+      "load": "ok",
+      "strain": "disabled",
+      "ultrasonic": "disabled",
+      "vibration": "ok"
+    }
+  },
+  "settled_sample": {
+    "timestamp": "2026-10-11T06:28:40.353298+00:00",
+    "time_ms": 233413,
+    "accel_x": 9.126697,
+    "accel_y": 0.003591,
+    "accel_z": -3.886986,
+    "accel_rms": 0.022166,
+    "sensor_status": {
+      "load": "ok",
+      "strain": "disabled",
+      "ultrasonic": "disabled",
+      "vibration": "ok"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "SkySafe",
+  "description": {"": "Build a raised wing clamp stand with a thin laptop anchoring foot. One new print, existing cap reused."},
+  "supportedOS": "mac|windows",
+  "editEnabled": true,
+  "version": "1.0.0"
+}

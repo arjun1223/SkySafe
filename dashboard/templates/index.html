@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SkySafe benchtop wing structural response monitor">
+  <title>SkySafe · Structural response lab</title>
+  <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/svg+xml">
+  <script>try { document.documentElement.dataset.theme = localStorage.getItem('skysafe-theme') === 'dark' ? 'dark' : 'light'; } catch { document.documentElement.dataset.theme = 'light'; }</script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script defer src="{{ url_for('static', filename='vendor/plotly.min.js') }}"></script>
+  <script defer src="{{ url_for('static', filename='load-cell-check.js') }}"></script>
+  <script defer src="{{ url_for('static', filename='dashboard.js') }}"></script>
+</head>
+<body>
+<main>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="SkySafe home"><span class="brandmark">↗</span><span>Sky<span class="brand-light">Safe</span><small>STRUCTURAL RESPONSE LAB</small></span></a>
+    <div class="connection-controls">
+      <div class="theme-control"><span id="theme-label">Light</span><label class="ui-switch theme-switch"><input type="checkbox" id="theme-toggle" aria-label="Dark theme"><span class="slider"></span></label></div>
+      <span id="connection" class="connection"><i></i>Connecting</span>
+      <label class="sr-only" for="source">Data source</label><select id="source"><option value="demo">Demo mode</option><option value="serial">ESP32 · USB serial</option></select>
+      <div id="serial-controls" hidden><label class="sr-only" for="serial-port">Serial port</label><select id="serial-port"><option value="">Choose port</option></select><button id="refresh-ports" class="icon-button" title="Refresh serial ports" aria-label="Refresh serial ports">↻</button><button id="connect-serial">Connect</button></div>
+    </div>
+  </header>
+
+  <section class="page-heading"><div><div class="eyebrow">BENCH 01 <span>/</span> CANTILEVER WING</div><h1>Wing response monitor<span class="heading-period">.</span></h1><p>Measure the load. Compare the response. Spot the change.</p><label class="developer-toggle"><input id="developer-toggle" type="checkbox" aria-controls="developer-panel"> Developer mode</label></div><div class="experiment-badge"><span>EXPERIMENTAL PROTOTYPE</span><small>Benchtop demonstration · Not a flight system</small></div></section>
+
+  <section id="developer-panel" class="panel developer-panel" aria-label="Developer sensor diagnostics" hidden>
+    <div class="panel-heading"><div><div class="eyebrow">DEVELOPER MODE / HARDWARE BRING-UP</div><h2>Load-cell response check</h2><p>Raw readings work before force calibration. This checks response, not wing strength or structural health.</p></div><span id="dev-stream" class="chip">AWAITING DATA</span></div>
+    <div class="developer-readings"><div><span>RAW LOAD CELL</span><strong id="dev-raw">—</strong><small>ADC counts</small></div><div><span>CHANGE FROM REFERENCE</span><strong id="dev-delta">—</strong><small>ADC counts</small></div><div><span>LAST 10 SECONDS</span><strong id="dev-span">—</strong><small id="dev-range">Minimum / maximum counts</small></div><div><span>RAW STRAIN BRIDGE</span><strong id="dev-strain-raw">—</strong><small id="dev-strain-note">Second HX711 / ADC counts</small></div></div>
+    <p id="dev-stream-message" class="developer-message" role="status" aria-live="polite">Connect the physical ESP32 to inspect its raw load-cell output.</p>
+    <div class="developer-actions"><button id="dev-reference">Capture unloaded reference</button><button id="dev-check-start" class="primary">Start 12-second response check</button><button id="dev-check-reset" class="subtle-button">Reset check</button></div>
+    <div class="developer-check"><strong id="dev-check-phase">READY TO CHECK</strong><p id="dev-check-message" role="status" aria-live="polite">Secure the root and keep the hanger clear. Start unloaded, gently press the free hanger when prompted, then release. No known weight needed.</p><progress id="dev-check-progress" max="12" value="0" aria-label="Load-cell response check progress"></progress><p id="dev-check-detail" class="control-help">The check looks for sustained change above measured idle noise and a return toward the unloaded reading.</p></div>
+    <div id="dev-raw-chart" class="small-chart" aria-label="Raw load-cell readings over time"></div>
+    <div class="panel-heading"><h2>Raw strain bridge <small>ADC counts</small></h2></div><div id="dev-strain-chart" class="small-chart" aria-label="Raw strain-bridge readings before zeroing"></div>
+    <div class="developer-calibration"><div><h3>Known-mass calibration</h3><p class="control-help">In the final mounting position, remove the weight and press Zero sensors below. Then hang the weighed load only from the free hanger. Include the bag and string in its mass.</p></div><div><label for="dev-mass">Total hanging mass (g)</label><div class="input-row"><input id="dev-mass" type="number" min="0.1" max="4996" step="0.1" value="32.4"><button id="dev-calibrate">Calibrate known mass</button></div><p class="control-help"><span id="dev-known-force">0.3177 N</span> · mass × 9.80665 / 1000</p></div></div>
+  </section>
+
+  <section class="panel judge-panel" aria-label="Demo test">
+    <div class="judge-main"><div class="eyebrow">DEMO TEST / SAME LOAD COMPARISON</div>
+      <div class="judge-controls"><button id="test-zero" class="primary">1 · ZERO</button><label for="test-target">Target force (N)</label><input id="test-target" type="number" min="0.1" max="49" step="0.1" value="10"><button id="test-start">2 · Start test</button><button id="test-reset" class="subtle-button">Reset test</button></div>
+      <div class="judge-force"><span id="test-force">—</span><small>N applied</small><span id="test-phase" class="chip">READY</span></div>
+      <progress id="test-force-progress" value="0" max="10" aria-label="Applied force relative to target"></progress>
+      <p id="test-message" role="status" aria-live="polite">Unload, ZERO, then push at the marked loading point.</p>
+      <p class="control-help">Use the same marked loading point for every baseline and test. For this mount, press the load cell’s free hanger so the applied force passes through the cell. Choose a physical target within your tested elastic range; 10 N is the simulation default.</p>
+    </div>
+    <div class="judge-result" id="test-result"><div class="eyebrow">HELD TEST RESULT <span id="test-provenance"></span></div><strong id="test-result-status">NO TEST YET</strong><div class="judge-health"><span id="test-result-health">—</span><small>/ 100</small></div><div class="result-readings"><span>FORCE <b id="test-result-force">—</b></span><span>TIP DEFLECTION <b id="test-result-deflection">—</b></span><span>STRAIN DEVIATION <b id="test-result-strain">—</b></span><span>STIFFNESS <b id="test-result-stiffness">—</b></span></div><p id="test-result-coverage">A measured healthy baseline is required.</p></div>
+  </section>
+  <div id="sensor-indicators" class="sensor-indicators" aria-label="Sensor connections"></div>
+  <section class="metrics" aria-label="Live measurements">
+    <article class="metric"><div class="metric-label">APPLIED FORCE <span>↧</span></div><div class="metric-value"><span id="force-value">—</span><small>N</small></div><div class="metric-note">Load cell / HX711</div></article>
+    <article class="metric"><div class="metric-label">STRAIN RESPONSE <span>⌁</span></div><div class="metric-value"><span id="strain-value">—</span><small>counts</small></div><div class="metric-note">Zero-referenced bridge output</div></article>
+    <article class="metric"><div class="metric-label">VIBRATION RMS <span>∿</span></div><div class="metric-value"><span id="vibration-value">—</span><small>m/s²</small></div><div class="metric-note">Gravity-removed / 1 second window</div></article>
+    <article class="metric"><div class="metric-label">TIP DEFLECTION</div><div class="metric-value"><span id="deflection-value">—</span><small>mm</small></div><div class="metric-note">Optional ultrasonic / zero referenced</div></article>
+    <article class="metric health-metric"><div class="metric-label">HEALTH SCORE <span>◈</span></div><div class="metric-value"><span id="health-value">—</span><small>/ 100</small></div><div class="health-track"><div id="health-bar"></div></div><div id="score-note" class="metric-note">Needs a healthy baseline</div></article>
+    <article class="metric status-metric" id="status-card"><div class="metric-label">STRUCTURAL STATUS <span>●</span></div><div id="status-value" class="status-value">AWAITING DATA</div><div id="status-note" class="metric-note">Preparing sensor stream…</div></article>
+  </section>
+
+  <section class="response-grid">
+    <article class="panel response-panel"><div class="panel-heading"><div><div class="eyebrow">THE STRUCTURAL SIGNATURE</div><h2>Force vs. strain</h2><p>Compare strain at equal force and the same loading point.</p></div><span id="baseline-badge" class="chip">No baseline</span></div><div class="chart-key"><span><i class="line-key"></i>Healthy baseline</span><span><i class="dot-key"></i>Recent measurements</span><span><i class="current-key"></i>Current sample</span></div><div id="response-chart" class="response-chart" aria-label="Applied force versus strain with healthy baseline"></div><div class="plot-footer"><span id="fit-label">Establish a healthy sweep to draw the expected response.</span><span id="residual-label">Deviation — counts</span></div></article>
+    <aside class="panel bench-panel">
+      <div class="panel-heading"><div><div class="eyebrow">VIRTUAL TEST BENCH</div><h2>Change the wing. Compare.</h2></div><span class="chip" id="source-badge">SIMULATED</span></div>
+      <svg class="wing-diagram" viewBox="0 0 400 146" role="img" aria-label="Cantilever wing clamped at root, with strain gauge, accelerometer, and applied tip force">
+        <defs><linearGradient id="wingfill" x1="0" x2="1"><stop stop-color="#dadad6"/><stop offset="1" stop-color="#eeeeea"/></linearGradient></defs>
+        <path d="M42 18v93M31 24l11-6M31 41l11-6M31 58l11-6M31 75l11-6M31 92l11-6M31 109l11-6" stroke="#607383" fill="none" stroke-width="2"/>
+        <path id="wing-shape" d="M44 45L348 68 344 81 44 75Z" fill="url(#wingfill)" stroke="#51d7c2" stroke-width="1.5"/>
+        <path d="M78 50v24M91 51v23M104 52v22" stroke="#51d7c2" stroke-width="2"/>
+        <rect x="232" y="57" width="16" height="11" rx="2" fill="#7f9fba"/><circle cx="239" cy="62" r="2" fill="#0a1721"/>
+        <path d="M344 29v28m-5-6 5 6 5-6" fill="none" stroke="#ffa873" stroke-width="2"/>
+        <path d="M92 82v17M240 75v24M344 89v10" stroke="#485e6f"/>
+        <g fill="#8ca2b3" font-size="10" font-family="monospace"><text x="53" y="116">STRAIN GAUGE</text><text x="216" y="116">MPU6050</text><text x="323" y="116">LOAD</text><text x="29" y="137">CLAMPED ROOT</text><text x="293" y="137">FREE TIP</text></g>
+      </svg>
+      <div class="wing-selector" role="group" aria-label="Wing simulation condition"><button id="normal-wing" class="selected">Healthy wing</button><button id="anomaly-wing">Reduced stiffness</button></div>
+      <div id="demo-controls"><div class="toggle-row distance-toggle"><label for="ultrasonic-sim">Simulate optional tip sensor</label><label class="ui-switch"><input id="ultrasonic-sim" type="checkbox"><span class="slider"></span></label></div><div class="toggle-row"><label for="auto-force">Automatic load sweep <small>1–13 N · 16 second cycle</small></label><label class="ui-switch"><input id="auto-force" type="checkbox" aria-label="Automatic load sweep" checked><span class="slider"></span></label></div><div class="manual-control"><label for="manual-force">Applied force <strong id="manual-force-label">0.0 N</strong></label><input id="manual-force" type="range" min="0" max="16" step="0.1" value="0" disabled><button id="unload" class="subtle-button">Unload wing · 0 N</button></div><button id="prepare-demo" class="primary full-width uiverse-button">Run healthy baseline sweep <span>↗</span></button><p class="control-help" id="demo-help">A 17-second sweep calibrates the virtual healthy wing. Then switch to reduced stiffness.</p></div>
+      <p id="hardware-help" class="control-help" hidden>USB telemetry comes from the ESP32. Zero and calibrate the physical sensors below, then sweep the healthy wing through your test load range.</p>
+      <div class="baseline-progress"><div><span id="baseline-progress-label">Baseline not established</span><span id="baseline-count">0 samples</span></div><progress id="baseline-progress" value="0" max="170" aria-label="Healthy baseline sample progress"></progress></div>
+    </aside>
+  </section>
+
+  <section class="panel deflection-panel"><div class="panel-heading"><div><div class="eyebrow">OPTIONAL TIP MEASUREMENT</div><h2>Force vs. deflection</h2><p>Dashed line: measured healthy response. Experimental stiffness is the inverse of the fitted compliance slope.</p></div><span id="stiffness-label" class="chip">Stiffness unavailable</span></div><div id="deflection-response-chart" class="response-chart"></div><div class="plot-footer"><span id="deflection-fit-label">Enable the tip sensor and repeat a healthy sweep.</span><span>Experimental benchtop measurement · N/mm</span></div></section>
+  <section class="timeseries-grid" aria-label="Measurements over time">
+    <article class="panel timeline"><div class="panel-heading"><h2>Force <small>N</small></h2><span>01 / LOAD</span></div><div id="force-chart" class="small-chart"></div></article>
+    <article class="panel timeline"><div class="panel-heading"><h2>Strain <small>ADC counts</small></h2><span>02 / RESPONSE</span></div><div id="strain-chart" class="small-chart"></div></article>
+    <article class="panel timeline"><div class="panel-heading"><h2>Vibration <small>m/s²</small></h2><span>03 / DYNAMICS</span></div><div id="vibration-chart" class="small-chart"></div></article>
+    <article class="panel timeline" id="deflection-timeline"><div class="panel-heading"><h2>Tip deflection <small>mm</small></h2><span>04 / DISPLACEMENT</span></div><div id="deflection-chart" class="small-chart"></div></article>
+  </section>
+
+  <section class="operations-grid">
+    <article class="panel operations"><div class="panel-heading"><div><div class="eyebrow">SENSOR SETUP</div><h2>Calibrate & establish a baseline</h2></div></div><div class="button-row"><button data-command="ZERO">Zero sensors</button><button data-command="BASELINE_START">Start baseline</button><button data-command="BASELINE_STOP">Stop baseline</button><button data-command="RESET_BASELINE" class="subtle-button">Reset baseline</button></div><p class="control-help">Setup ZERO clears the baseline. The DEMO TEST ZERO above retains its measured slopes. Unload before either zero. During a healthy baseline, sweep the force over at least 4 N and collect at least 60 samples.</p><div id="calibration-controls" hidden><label for="known-force">Known applied force (N)</label><div class="input-row"><input id="known-force" type="number" min="0.001" max="49" step="any" value="9.80665"><button id="calibrate">Calibrate force</button></div><p class="control-help">After zeroing, apply a known load. 1 kg × 9.80665 = 9.80665 N.</p></div><div class="baseline-details"><div><span>RESPONSE SLOPE</span><strong id="baseline-slope">— <small>counts/N</small></strong></div><div><span>FIT QUALITY</span><strong id="baseline-r2">— <small>R²</small></strong></div><div><span>LOAD ENVELOPE</span><strong id="baseline-range">— <small>N</small></strong></div></div></article>
+    <article class="panel operations"><div class="panel-heading"><div><div class="eyebrow">TEST RECORDS</div><h2>Capture the experiment</h2></div><span id="recording-badge" class="chip">NOT RECORDING</span></div><label for="run-name">Test run name</label><div class="input-row"><input id="run-name" value="healthy-wing" maxlength="48"><button id="record-start">Record CSV</button><button id="record-stop" hidden>Stop & save</button></div><p id="recording-info" class="control-help">Each run has its own CSV and baseline metadata. All times are saved in UTC.</p><div id="run-files" class="run-files"><span>No saved runs yet.</span></div></article>
+  </section>
+  <footer><span><strong>SkySafe</strong> / An experimental structural response monitor.</span><span>Changes in response are indicators, not certified damage diagnoses.</span></footer>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+</main>
+</body>
+</html>

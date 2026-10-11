@@ -1,0 +1,335 @@
+{
+  "passed": true,
+  "scope": "Native/export geometry only; physical fit, strength and stability untested",
+  "parts": [
+    {
+      "part": "tray_bridge.stl",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "one_connected_solid": true,
+        "positive_volume": true,
+        "fits_140_mm_bed": true,
+        "fits_132_mm_xy_margin": true,
+        "flat_on_bed": true,
+        "expected_dimensions": true
+      },
+      "dimensions_mm": [
+        24.200000762939453,
+        98.0,
+        4.0
+      ],
+      "volume_mm3": 9341.701007057884,
+      "sha256": "22a891d4680682982f24e1381ccb022052d86106151e4d773173bac8859e6d50"
+    },
+    {
+      "part": "weighted_root_base.stl",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "one_connected_solid": true,
+        "positive_volume": true,
+        "fits_140_mm_bed": true,
+        "fits_132_mm_xy_margin": true,
+        "flat_on_bed": true,
+        "expected_dimensions": true
+      },
+      "dimensions_mm": [
+        130.0,
+        110.0,
+        10.0
+      ],
+      "volume_mm3": 86720.18695922318,
+      "sha256": "95722f2b94107a1a45816df370e5a70adffc27477c720aa5133102bd20eb4892"
+    },
+    {
+      "part": "ballast_tray.stl",
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "one_connected_solid": true,
+        "positive_volume": true,
+        "fits_140_mm_bed": true,
+        "fits_132_mm_xy_margin": true,
+        "flat_on_bed": true,
+        "expected_dimensions": true
+      },
+      "dimensions_mm": [
+        130.0,
+        110.0,
+        10.0
+      ],
+      "volume_mm3": 89889.75199066834,
+      "sha256": "c919d4d4be9dcb69ada940a2980dbf354b962103ebc075ed3c1317e287f1530c"
+    }
+  ],
+  "circular_sections": [
+    {
+      "center": [
+        3.000139307372651,
+        -42.99999285370669
+      ],
+      "z": 0.5,
+      "diameter_mm": 6.4,
+      "measured_diameter_mm": 6.395034980805495,
+      "passed": true
+    },
+    {
+      "center": [
+        3.000000022759994,
+        -43.00000000000102
+      ],
+      "z": 4,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.395215274361279,
+      "passed": true
+    },
+    {
+      "center": [
+        3.0001393073725673,
+        43.000007146293804
+      ],
+      "z": 0.5,
+      "diameter_mm": 6.4,
+      "measured_diameter_mm": 6.395034980805495,
+      "passed": true
+    },
+    {
+      "center": [
+        3.000000022760059,
+        42.999999999999545
+      ],
+      "z": 4,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.395215274360877,
+      "passed": true
+    },
+    {
+      "center": [
+        19.99994552585508,
+        -43.00000278243148
+      ],
+      "z": 0.5,
+      "diameter_mm": 6.4,
+      "measured_diameter_mm": 6.395100737062278,
+      "passed": true
+    },
+    {
+      "center": [
+        19.999999999986272,
+        -43.00000000000636
+      ],
+      "z": 4,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.39521502733058,
+      "passed": true
+    },
+    {
+      "center": [
+        19.999945525854976,
+        42.999997217580436
+      ],
+      "z": 0.5,
+      "diameter_mm": 6.4,
+      "measured_diameter_mm": 6.395100737062349,
+      "passed": true
+    },
+    {
+      "center": [
+        19.999999999986308,
+        43.00000000000634
+      ],
+      "z": 4,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.3952150273313837,
+      "passed": true
+    },
+    {
+      "center": [
+        -98.00016577065134,
+        -40.00000852957429
+      ],
+      "z": 0.5,
+      "diameter_mm": 6.4,
+      "measured_diameter_mm": 6.395113962610533,
+      "passed": true
+    },
+    {
+      "center": [
+        -97.99999999999879,
+        -40.00000000000129
+      ],
+      "z": 4,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.3952151359943823,
+      "passed": true
+    },
+    {
+      "center": [
+        -98.00016577065131,
+        39.99999147042848
+      ],
+      "z": 0.5,
+      "diameter_mm": 6.4,
+      "measured_diameter_mm": 6.395113962610604,
+      "passed": true
+    },
+    {
+      "center": [
+        -97.99999999999878,
+        40.00000000000131
+      ],
+      "z": 4,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.3952151359961236,
+      "passed": true
+    },
+    {
+      "center": [
+        19.99994552584969,
+        -40.00000278243462
+      ],
+      "z": 0.5,
+      "diameter_mm": 6.4,
+      "measured_diameter_mm": 6.395100737063274,
+      "passed": true
+    },
+    {
+      "center": [
+        19.99999999998046,
+        -40.00000000000974
+      ],
+      "z": 4,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.395215027331116,
+      "passed": true
+    },
+    {
+      "center": [
+        19.999945525849633,
+        39.99999721758361
+      ],
+      "z": 0.5,
+      "diameter_mm": 6.4,
+      "measured_diameter_mm": 6.395100737063131,
+      "passed": true
+    },
+    {
+      "center": [
+        19.999999999980503,
+        40.000000000009734
+      ],
+      "z": 4,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.395215027330312,
+      "passed": true
+    },
+    {
+      "center": [
+        8.00000010695719,
+        -8.00000010695719
+      ],
+      "z": 7,
+      "diameter_mm": 3,
+      "measured_diameter_mm": 2.994297400006373,
+      "passed": true
+    },
+    {
+      "center": [
+        8.00000010695719,
+        8.000000106957186
+      ],
+      "z": 7,
+      "diameter_mm": 3,
+      "measured_diameter_mm": 2.994297400006373,
+      "passed": true
+    },
+    {
+      "center": [
+        6.000000261123964,
+        -40.00000000000163
+      ],
+      "z": 2,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.3950154097972494,
+      "passed": true
+    },
+    {
+      "center": [
+        6.000000261123919,
+        40.00000000000162
+      ],
+      "z": 2,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.3950154097969816,
+      "passed": true
+    },
+    {
+      "center": [
+        18.200000335383077,
+        -40.0
+      ],
+      "z": 2,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.395015232892488,
+      "passed": true
+    },
+    {
+      "center": [
+        18.20000033538308,
+        40.00000000000001
+      ],
+      "z": 2,
+      "diameter_mm": 3.4,
+      "measured_diameter_mm": 3.39501523289222,
+      "passed": true
+    },
+    {
+      "center": [
+        3.0000000007624306,
+        -43.00000000000027
+      ],
+      "z": 4,
+      "diameter_mm": 4.4,
+      "measured_diameter_mm": 4.399999442413634,
+      "passed": true
+    },
+    {
+      "center": [
+        3.0000000007620686,
+        43.00000000000026
+      ],
+      "z": 4,
+      "diameter_mm": 4.4,
+      "measured_diameter_mm": 4.39999944241198,
+      "passed": true
+    },
+    {
+      "center": [
+        19.999999999986326,
+        -43.00000000000635
+      ],
+      "z": 4,
+      "diameter_mm": 4.4,
+      "measured_diameter_mm": 4.399998919856017,
+      "passed": true
+    },
+    {
+      "center": [
+        19.999999999986375,
+        43.000000000006345
+      ],
+      "z": 4,
+      "diameter_mm": 4.4,
+      "measured_diameter_mm": 4.399998919854984,
+      "passed": true
+    }
+  ],
+  "tray_hole_alignment": true,
+  "existing_cap_alignment": true,
+  "assembled_footprint_mm": [
+    260.2,
+    110
+  ],
+  "source_sha256": "2bcc83ba27dd5e769eb203dbd4446d222194f8c248da46e29f424ec4e87b3dc1"
+}

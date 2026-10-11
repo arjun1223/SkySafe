@@ -1,0 +1,71 @@
+{
+  "connection": {
+    "age_seconds": 0.030938665848225355,
+    "connected": true,
+    "error": null,
+    "invalid_lines": 1
+  },
+  "last_command": {
+    "command": "CALIBRATE",
+    "message": "Force scale calibrated in newtons. Establish a new healthy baseline.",
+    "ok": true,
+    "type": "ack"
+  },
+  "latest": {
+    "timestamp": "2026-10-11T09:17:36.414090+00:00",
+    "force_n": 0.015945,
+    "load_raw": 179494,
+    "zeroed": true,
+    "force_calibrated": true,
+    "sensor_status": {
+      "load": "ok",
+      "strain": "disabled",
+      "ultrasonic": "disabled",
+      "vibration": "ok"
+    },
+    "status": "SENSOR_FAULT",
+    "simulation": false
+  },
+  "last_calibrated_samples": [
+    {
+      "timestamp": "2026-10-11T09:17:34.614065+00:00",
+      "force_n": 0.014321
+    },
+    {
+      "timestamp": "2026-10-11T09:17:34.813784+00:00",
+      "force_n": 0.015485
+    },
+    {
+      "timestamp": "2026-10-11T09:17:35.014298+00:00",
+      "force_n": 0.016405
+    },
+    {
+      "timestamp": "2026-10-11T09:17:35.214055+00:00",
+      "force_n": 0.01654
+    },
+    {
+      "timestamp": "2026-10-11T09:17:35.413967+00:00",
+      "force_n": 0.017569
+    },
+    {
+      "timestamp": "2026-10-11T09:17:35.614344+00:00",
+      "force_n": 0.014375
+    },
+    {
+      "timestamp": "2026-10-11T09:17:35.812266+00:00",
+      "force_n": 0.015809
+    },
+    {
+      "timestamp": "2026-10-11T09:17:36.014287+00:00",
+      "force_n": 0.015647
+    },
+    {
+      "timestamp": "2026-10-11T09:17:36.214000+00:00",
+      "force_n": 0.01451
+    },
+    {
+      "timestamp": "2026-10-11T09:17:36.414090+00:00",
+      "force_n": 0.015945
+    }
+  ]
+}
