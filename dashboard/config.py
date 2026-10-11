@@ -35,6 +35,9 @@ DEMO_HOLD_SECONDS = 2.0  # Enough real samples at the verified 5 Hz USB telemetr
 DEMO_MIN_SAMPLES = 8
 RECONNECT_SECONDS = 2.0
 ULTRASONIC_ENABLED = False  # Laptop simulation; hardware flag lives in Config.h.
+# Independent live alarms; do not change structural scoring or baseline quality.
+FORCE_ALARM_N = 0.75
+VIBRATION_ALARM_M_S2 = 6.0  # Gravity-removed vibration RMS, not absolute gravity.
 SIM_HEALTHY_COMPLIANCE_MM_PER_N = 0.8
 SIM_ALTERED_COMPLIANCE_MM_PER_N = 1.4
 DISTANCE_FILTER_ALPHA = 0.35

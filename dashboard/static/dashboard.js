@@ -85,6 +85,7 @@ const statusNotes = {
 function sensorOK(sample, name) {return sample.sensor_status ? sample.sensor_status[name] === 'ok' : sample.sensors_ok;}
 function render(s) {
   const m = s.latest || {}, baseline = s.baseline_state.baseline;
+  SkySafeLiveAlarm.render(s);
   renderDeveloper(s);
   const label = s.connection.connected ? m.status : (m.status || 'AWAITING DATA');
   const color = label === 'STRUCTURAL ANOMALY' ? colors.red : label === 'WARNING' ? colors.amber : colors.teal;

@@ -8,6 +8,10 @@ A benchtop aircraft-wing structural response monitor for a hackathon. An ESP32 r
 
 **Experimental prototype. Not a flight system or a certified damage-detection algorithm.** The score describes agreement with a baseline; it does not certify structural integrity. No AI/ML is used.
 
+## Live load and vibration alarm
+
+A separate red banner and browser siren activate at an absolute calibrated force of **0.75 N** or gravity-removed vibration RMS of **6 m/s²**. Click **Enable siren** once after opening the dashboard; **Mute siren** stops sound while leaving visual alerts active. Alerts clear when readings fall below the limits, and stale/missing measurements cannot trigger them. Limits are centralized in `dashboard/config.py`. This threshold alert does not change structural scores, require a healthy baseline, or establish a physical load rating.
+
 ## Developer mode: test the load cell yourself
 
 Refresh the dashboard and enable **Developer mode** underneath the page title. It is off on every page load; hiding it restores the normal judging view. Select **ESP32 · USB serial** and connect the physical board. No force calibration or structural baseline is needed to view the raw ADC reading and graph.

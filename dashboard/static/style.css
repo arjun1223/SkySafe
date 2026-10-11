@@ -229,3 +229,13 @@ footer strong { color: var(--text); font-weight: 500; }
 #test-message {font-size:18px;font-weight:500;}
 .timeseries-grid {grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
 #test-result-coverage.fault {color:var(--red);}
+
+/* Large, steady red alarm; no flashing or structural-score changes. */
+.live-alarm {display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 20px;margin-bottom:20px;border:1px solid var(--line);background:var(--panel);}
+.live-alarm strong {font-size:16px;letter-spacing:.04em;}
+.live-alarm p {margin:5px 0 0;font-size:12px;color:var(--muted);}
+.live-alarm.active {position:sticky;top:0;z-index:20;background:#b91c1c;color:white;border:4px solid #ff4545;padding:20px;box-shadow:0 0 0 4px #b91c1c;}
+.live-alarm.active strong {font-size:clamp(22px,3vw,38px);}
+.live-alarm.active p {color:white;}
+body.live-alarm-active {box-shadow:inset 0 0 0 8px #dc2626;}
+@media(max-width:600px){.live-alarm{align-items:flex-start;flex-direction:column;}}

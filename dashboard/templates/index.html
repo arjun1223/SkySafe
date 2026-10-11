@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <script defer src="{{ url_for('static', filename='vendor/plotly.min.js') }}"></script>
   <script defer src="{{ url_for('static', filename='load-cell-check.js') }}"></script>
+  <script defer src="{{ url_for('static', filename='live-alarm.js') }}"></script>
   <script defer src="{{ url_for('static', filename='dashboard.js') }}"></script>
 </head>
 <body>
@@ -25,6 +26,10 @@
 
   <section class="page-heading"><div><div class="eyebrow">BENCH 01 <span>/</span> CANTILEVER WING</div><h1>Wing response monitor<span class="heading-period">.</span></h1><p>Measure the load. Compare the response. Spot the change.</p><label class="developer-toggle"><input id="developer-toggle" type="checkbox" aria-controls="developer-panel"> Developer mode</label></div><div class="experiment-badge"><span>EXPERIMENTAL PROTOTYPE</span><small>Benchtop demonstration · Not a flight system</small></div></section>
 
+  <section id="live-alarm" class="live-alarm" aria-label="Live threshold alarm">
+    <div><strong id="live-alarm-title" role="alert">LIVE LOAD / VIBRATION ALARM</strong><p id="live-alarm-note">Force ≥ 0.75 N or vibration RMS ≥ 6 m/s². Independent of structural health.</p></div>
+    <button id="alarm-sound" type="button" aria-pressed="false">Enable siren</button>
+  </section>
   <section id="developer-panel" class="panel developer-panel" aria-label="Developer sensor diagnostics" hidden>
     <div class="panel-heading"><div><div class="eyebrow">DEVELOPER MODE / HARDWARE BRING-UP</div><h2>Load-cell response check</h2><p>Raw readings work before force calibration. This checks response, not wing strength or structural health.</p></div><span id="dev-stream" class="chip">AWAITING DATA</span></div>
     <div class="developer-readings"><div><span>RAW LOAD CELL</span><strong id="dev-raw">—</strong><small>ADC counts</small></div><div><span>CHANGE FROM REFERENCE</span><strong id="dev-delta">—</strong><small>ADC counts</small></div><div><span>LAST 10 SECONDS</span><strong id="dev-span">—</strong><small id="dev-range">Minimum / maximum counts</small></div><div><span>RAW STRAIN BRIDGE</span><strong id="dev-strain-raw">—</strong><small id="dev-strain-note">Second HX711 / ADC counts</small></div></div>

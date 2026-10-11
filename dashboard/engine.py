@@ -6,7 +6,7 @@ from dataclasses import asdict
 from datetime import datetime, timezone
 from .anomaly_detection import Detector
 from .demo_test import DemoTest
-from .config import SAMPLE_HZ, TELEMETRY_HZ, HISTORY_SIZE, STALE_SECONDS, THRESHOLDS, RECONNECT_SECONDS
+from .config import SAMPLE_HZ, TELEMETRY_HZ, HISTORY_SIZE, STALE_SECONDS, THRESHOLDS, RECONNECT_SECONDS, FORCE_ALARM_N, VIBRATION_ALARM_M_S2
 from .data_logging import RunLogger
 from .serial_reader import SerialReader
 from .simulator import Simulator
@@ -323,6 +323,7 @@ class Engine:
             if stale:
                 self.demo_test.fail("No live telemetry. Reset and retry after reconnection.")
             return dict(demo_test=self.demo_test.state(), source=self.source, latest=latest, history=[s for s in self.history if s["seq"] > after],
+                        alarm_limits=dict(force_n=FORCE_ALARM_N, vibration_m_s2=VIBRATION_ALARM_M_S2),
                         baseline_state=self.baseline_state(), thresholds=asdict(THRESHOLDS),
                         connection=dict(connected=not stale, age_seconds=age, error=self.connection_error,
                                         invalid_lines=self.reader.errors if self.reader else 0),

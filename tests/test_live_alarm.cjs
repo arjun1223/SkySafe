@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict');
+const {evaluate}=require('../dashboard/static/live-alarm.js');
+const state={connection:{connected:true},latest:{sensor_status:{load:'ok',vibration:'ok'},force_calibrated:true,zeroed:true,force_n:0,accel_rms:0}};
+const check=(changes,connection=true)=>evaluate({...state,connection:{connected:connection},latest:{...state.latest,...changes}});
+assert.equal(check({force_n:0.74,accel_rms:5.99}).active,false);
+assert.equal(check({force_n:0.75}).force,true);
+assert.equal(check({force_n:-0.75}).force,true);
+assert.equal(check({accel_rms:6}).vibration,true);
+assert.equal(check({force_n:1,force_calibrated:false}).force,false);
+assert.equal(check({force_n:1,zeroed:false}).force,false);
+assert.equal(check({force_n:1,accel_rms:7},false).active,false);
+assert.equal(check({force_n:null,accel_rms:null}).active,false);
+assert.equal(check({force_n:1,sensor_status:{load:'fault',vibration:'ok'}}).active,false);
+assert.equal(check({force_n:0.2,accel_rms:0}).active,false);
+assert.equal(check({accel_rms:7,force_calibrated:false}).active,true);
+assert.equal(evaluate({...state,alarm_limits:{force_n:2,vibration_m_s2:8},latest:{...state.latest,force_n:1,accel_rms:7}}).active,false);
+console.log('Live alarms: thresholds, signed load, independent vibration, unavailable sensors, stale data and clearing passed.');
